@@ -86,6 +86,14 @@
                    [ngClass]="{'glyphicon-chevron-down': group?.isOpen, 'glyphicon-chevron-right': !group?.isOpen}"></i>
               </div>
               <p class="limit">{{item.profile?.comment}}{{item.comment}}</p>
+
+              <carousel>
+                <slide *ngFor="let slide of (item.images) ">
+                  <img src="http://localhost:3000/{{slide.originalname}}" alt="First slide">
+                </slide>
+
+              </carousel>
+
             </accordion-group>
           </accordion>
           <hr>

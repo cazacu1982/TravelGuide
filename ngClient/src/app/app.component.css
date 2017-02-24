@@ -22,3 +22,19 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: capitalize;
 }
 
+slide {
+  margin: auto;
+  height: 20vw;
+}
+.item {
+  text-align: center;
+
+}
+.item  img {
+  max-width:80%;
+  max-height:100%;
+
+}
+.right span {
+
+}

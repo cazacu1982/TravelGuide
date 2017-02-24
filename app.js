@@ -38,9 +38,10 @@ app.use(function(req, res, next) {
 var configDB = require('./config/database.js');
 
 var Profile = require('./models/profile.js');
+//var Images = require('./models/images.js');
 
 var multer = require('multer');
-var upload = multer({ dest: 'uploads/' });
+//var upload = multer({ dest: 'uploads/' });
 
 //configuration
 
@@ -55,31 +56,53 @@ db.once('open', function() {
   console.log('Connected to MongoDB');
   gfs = Grid(db.db);
 
-  // create profile
-  app.post('/profile', upload.array('img', 8), function(req, res, next) { 
+  app.addImage = function(image, callback) {
+    Profile.create(image, callback);
+  };
+
+  var storage = multer.diskStorage({
+    destination: function(req, file, cb) {
+      cb(null, 'uploads/')
+    },
+    filename: function(req, file, cb) {
+      cb(null, file.originalname);
+    }
+  });
+
+  var upload = multer({
+    storage: storage
+  });
+
+ /* // create profile images
+  app.post('/profile', upload.array('img', 8), function(req, res, next) {
+    res.send(req.files);
+
+    /!*req.files has the information regarding the file you are uploading...
+     from the total information, i am just using the path and the imageName to store in the mongo collection(table)
+     *!/
+    var path = req.files[0].path;
+    var imageName = req.files[0].originalname;
+
+    var imagepath = {};
+    imagepath['path'] = path;
+    imagepath['originalname'] = imageName;
+
+    //imagepath contains two objects, path and the imageName
+
+    //we are passing two objects in the addImage method.. which is defined above..
+    app.addImage(imagepath, function(err) {
+
+    });
+   });
+*/
+    // create profile
+  app.post('/profile', upload.array('img', 8), function(req, res, next) {
 
     var obj = new Profile();
-   /* console.log(req.files);
-    let filesCount = req.files.length;
-    req.files.map(function (file) {
-      let writestream = gfs.createWriteStream({
-        filename: file.filename
-      });
-      fs.createReadStream(`./uploads/${file.filename}`)
-          .on("end", function () {
-            fs.unlink(`./uploads/${file.filename}`,
-                function (err) {
-                  if (err) {
-                    next(err);
-                  }
-                  if (--filesCount == 0) {
-                    next();
-                  }
-                }
-            )
-          }).pipe(writestream);
-      return writestream;
-    });*/
+console.log(req.files);
+   
+    obj.images = req.files;
+
     obj.name = req.body.name;
     obj.country = req.body.country;
     obj.region = req.body.region;
@@ -90,12 +113,31 @@ db.once('open', function() {
      if(err) return console.error(err);
      res.status(200).json(obj);
      });*/
+
+  /* // var path = req.files[0].path;
+    var imageName = req.files.originalname;
+
+   // var path = (typeof req.files[0].path !== 'undefined') ? req.files[0].path : '';
+    //var imageName = (typeof req.files[0].originalname !== 'undefined') ? req.files[0].originalname : '';
+
+    var imagepath = [];
+    imagepath['path'] = path;
+    imagepath['originalname'] = imageName;
+
+    //imagepath contains two objects, path and the imageName
+
+    //we are passing two objects in the addImage method.. which is defined above..
+    app.addImage(imagepath, function(err) {
+
+    });*/
+
     obj.save((err, obj) => {
       if(err) {
         res.send('There was a problem adding the information to the database.')
       } else {
         // console.log('POST creating new profile: ' + obj);
         res.format({
+
           //HTML response will set the location and redirect back to the home page. You could also create a 'success' page if that's your thing
           html: () => {
             // If it worked, set the header so the address bar doesn't still say /adduser
@@ -106,6 +148,7 @@ db.once('open', function() {
           //JSON response will show the newly created blob
           json: () => {
             res.json(obj);
+            res.send(req.files)
           }
         });
       }
@@ -121,8 +164,9 @@ db.once('open', function() {
 // view engine setup ejs
   app.set('view engine', 'ejs');
 // Point static path to ngCms/dist
+  app.use(express.static(path.join(__dirname, 'uploads')));
   app.use(express.static(path.join(__dirname, 'ngClient/dist')));
-  app.use(express.static(path.join(__dirname, 'public')));
+
 
 //require for passport
   app.use(session({secret: 'ilovecodecodecode', cookie: {maxAge: 60000}, resave: true, saveUninitialized: true})); // session secret

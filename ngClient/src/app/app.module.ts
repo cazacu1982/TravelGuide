@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { AccordionModule } from 'ng2-bootstrap/accordion';
+import { CarouselModule } from 'ng2-bootstrap/carousel';
 //import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
@@ -20,7 +21,8 @@ import { AppPipe } from './app.pipe';
     //AppRoutingModule,
     FormsModule,
     HttpModule,
-    AccordionModule.forRoot()
+    AccordionModule.forRoot(),
+    CarouselModule.forRoot()
   ],
   providers: [AppService],
   bootstrap: [AppComponent]
