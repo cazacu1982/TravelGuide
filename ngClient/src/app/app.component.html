@@ -1,0 +1,155 @@
+<div class="overlay"></div>
+<!--nav bar-->
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="http://localhost:4200">TRAVELgUIDE</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#" (click)="isHome()">Home</a></li>
+        <li><a href="#" (click)="isAbout()">About</a></li>
+        <li><a href="#" (click)="isContact()">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#" (click)="getLogin()" class="btn btn-info"><span class="fa fa-user"></span> Login</a></li>
+        <li><a href="#" (click)="getSignup()" class="btn btn-info"><span class="fa fa-user"></span> Sign up</a></li>
+        <li><a href="http://localhost:3000/auth/facebook" class="btn btn-primary"><span class="fa fa-facebook"></span> Facebook</a></li>
+        <li><a href="http://localhost:3000/auth/twitter" class="btn btn-primary"><span class="fa fa-twitter"></span> Twitter</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!--info-->
+<div class="panel panel-info text-center">
+  <div class="panel-heading">
+   <div class="row">
+    <div class="col-sm-4"></div>
+     <div class="col-sm-4"><h1>TRAVELgUIDE</h1></div>
+      <div class="col-sm-4">
+
+        <form>
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search" name="search" (keyup.backspace)="reset()" (keyup)="search()" [(ngModel)]="query">
+            <div class="input-group-btn">
+              <button class="btn btn-default" type="submit" (click)="search()">
+                <i class="glyphicon glyphicon-search"></i>
+              </button>
+              <button class="btn btn-info" (click)="reset()">Reset</button>
+            </div>
+          </div>
+        </form>
+
+      </div>
+     </div>
+   </div>
+</div>
+<!--home left-->
+<div class="container-fluid text-center bottom"  *ngIf="isHomeVisible" >
+  <div class="row content" >
+    <div class="col-sm-2 sidenav">
+      <!--<p><a href="#">Link</a></p>
+      <p><a href="#">Link</a></p>
+      <p><a href="#">Link</a></p>-->
+    </div>
+<!--home center-->
+      <div class="col-sm-8 text-left">
+        <div class="col-sm-12 text-left  margin" *ngFor="let item of pagedItems">
+          <div class="row">
+            <div class="col-sm-8"> <h4>{{item.profile?.name}}{{item.name}}</h4></div>
+            <div class="col-sm-4 text-right"> <p>{{item.profile?.date}}{{item.date}}</p></div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12"> <h4>{{item.profile?.country}}{{item.country}}</h4></div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12"> <h5>{{item.profile?.region}}{{item.region}}</h5></div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 text-center toggle"> <h2 (click)="group.isOpen = !group.isOpen">{{item.profile?.title}}{{item.title}}</h2></div>
+          </div>
+          <p>
+            <button type="button" class="btn btn-info btn-sm"
+                    (click)="group.isOpen = !group.isOpen">Reed More
+            </button>
+          </p>
+          <accordion>
+            <accordion-group #group [isOpen]="status.isOpen">
+              <div accordion-heading>
+                {{item.profile?.title}}{{item.title}}...
+                <i class="pull-right float-xs-right glyphicon"
+                   [ngClass]="{'glyphicon-chevron-down': group?.isOpen, 'glyphicon-chevron-right': !group?.isOpen}"></i>
+              </div>
+              <p class="limit">{{item.profile?.comment}}{{item.comment}}</p>
+            </accordion-group>
+          </accordion>
+          <hr>
+          <!--carousel-->
+
+        </div>
+      </div>
+<!--home right-->
+    <div class="col-sm-2 sidenav">
+     <!-- <div class="well">
+        &lt;!&ndash;<p>ADS</p>&ndash;&gt;
+      </div>
+      <div class="well">
+        &lt;!&ndash;<p>ADS</p>&ndash;&gt;
+      </div>-->
+    </div>
+
+    <!--pager-->
+
+    <ul *ngIf="pager.pages && pager.pages.length" class="pagination">
+      <li [ngClass]="{disabled:pager.currentPage === 1}">
+        <a (click)="setPage(1)">First</a>
+      </li>
+      <li [ngClass]="{disabled:pager.currentPage === 1}">
+        <a (click)="setPage(pager.currentPage - 1)">Previous</a>
+      </li>
+      <li *ngFor="let page of pager.pages" [ngClass]="{active:pager.currentPage === page}">
+        <a (click)="setPage(page)">{{page}}</a>
+      </li>
+      <li [ngClass]="{disabled:pager.currentPage === pager.totalPages}">
+        <a (click)="setPage(pager.currentPage + 1)">Next</a>
+      </li>
+      <li [ngClass]="{disabled: pager.currentPage === pager.totalPages}">
+        <a (click)="setPage(pager.totalPages)">Last</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!--about-->
+<div class="container text-center" *ngIf="isAboutVisible">
+  <div class="jumbotron">
+    <p>- Travelguide is a platform for evryone who want to share their experience and pictures from journeys,
+      tel us about conditions, moments, interesting things to visit and things about to be aware;
+      and let us to prepare for our travel to.<br />
+      - Sign up or login with Facebook or Twitter, complete the form, upload pictures and let us now about your trip experience.
+    </p>
+  </div>
+</div>
+<!--contact-->
+<div class="container text-center" *ngIf="isContactVisible">
+  <div class="jumbotron">
+    <p>Contact:<br/>
+      <b>Web Developer</b><br />
+          Cazacu Mihai Dragos</p>
+    <p>Email:<br/>cazacu1982@yahoo.com</p>
+    <p>Email link:
+          <button (click)="sendMail()">Send email</button>
+    </p>
+
+  </div>
+</div>
+
+
+
+
+

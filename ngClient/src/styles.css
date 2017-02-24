@@ -1,0 +1,45 @@
+/* You can add global styles to this file, and also import other style files */
+html {
+  height: 100%;
+}
+body {
+  position: relative;
+  min-height: 100%;
+  font-family: "Lucida Console", Monaco, monospace !important;
+}
+.overlay {
+  position: absolute;
+  top:0;
+  left:0;
+  right: 0;
+  bottom: 0;
+  background: url("../src/assets/images/vacanta_(2).jpg")  repeat-y;
+  background-size: cover;
+  opacity: 0.4;
+  z-index: -1;
+}
+.bottom{
+  padding-bottom: 4vw;
+ }
+@media screen and (max-width: 480px) {
+  .bottom {
+    padding-bottom: 20vw;
+  }
+}
+footer {
+  background-color: #555;
+  color: white;
+  padding: 15px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+  .row.content {height:auto;}
+}

@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<!-- saved from url=(0023)http://localhost:4200/# -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+   <title>travelguide</title>
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <link rel="stylesheet" href="./travelguide_files/bootstrap.min.css"> <!-- load bootstrap css -->
+          <link rel="stylesheet" href="./travelguide_files/font-awesome.min.css"> <!-- load fontawesome -->
+          <script src="./travelguide_files/jquery.min.js.download"></script>
+          <script src="./travelguide_files/bootstrap.min.js.download"></script>
+  <!--<base href="/">--><base href=".">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="http://localhost:4200/favicon.ico">
+<link href="./travelguide_files/styles.bundle.css" rel="stylesheet"><style>.limit[_ngcontent-rrs-2] {
+  word-wrap: break-word;
+   max-width: 100%;
+}
+.margin[_ngcontent-rrs-2] {
+   margin-bottom: 1%;
+}
+.toggle[_ngcontent-rrs-2] {
+  cursor: pointer;
+}
+hr[_ngcontent-rrs-2] {
+  margin: 1%;
+}
+form[_ngcontent-rrs-2] {
+  margin: 0.5% 0;
+}
+ul[_ngcontent-rrs-2] {
+  cursor: pointer;
+}
+h1[_ngcontent-rrs-2], h2[_ngcontent-rrs-2], h3[_ngcontent-rrs-2], h4[_ngcontent-rrs-2], h5[_ngcontent-rrs-2], h6[_ngcontent-rrs-2] {
+  margin: 0.5% 0;
+}</style></head>
+<body>
+  <app-root ng-version="2.4.7" _nghost-rrs-2=""><div _ngcontent-rrs-2="" class="overlay"></div>
+
+<nav _ngcontent-rrs-2="" class="navbar navbar-inverse">
+  <div _ngcontent-rrs-2="" class="container-fluid">
+    <div _ngcontent-rrs-2="" class="navbar-header">
+      <button _ngcontent-rrs-2="" class="navbar-toggle" data-target="#myNavbar" data-toggle="collapse" type="button">
+        <span _ngcontent-rrs-2="" class="icon-bar"></span>
+        <span _ngcontent-rrs-2="" class="icon-bar"></span>
+        <span _ngcontent-rrs-2="" class="icon-bar"></span>
+      </button>
+      <a _ngcontent-rrs-2="" class="navbar-brand" href="http://localhost:4200/">TRAVELgUIDE</a>
+    </div>
+    <div _ngcontent-rrs-2="" class="collapse navbar-collapse" id="myNavbar">
+      <ul _ngcontent-rrs-2="" class="nav navbar-nav">
+        <li _ngcontent-rrs-2="" class="active"><a _ngcontent-rrs-2="" href="http://localhost:4200/#">Home</a></li>
+        <li _ngcontent-rrs-2=""><a _ngcontent-rrs-2="" href="http://localhost:4200/#">About</a></li>
+        <li _ngcontent-rrs-2=""><a _ngcontent-rrs-2="" href="http://localhost:4200/#">Contact</a></li>
+      </ul>
+      <ul _ngcontent-rrs-2="" class="nav navbar-nav navbar-right">
+        <li _ngcontent-rrs-2=""><a _ngcontent-rrs-2="" class="btn btn-info" href="http://localhost:4200/#"><span _ngcontent-rrs-2="" class="fa fa-user"></span> Login</a></li>
+        <li _ngcontent-rrs-2=""><a _ngcontent-rrs-2="" class="btn btn-info" href="http://localhost:4200/#"><span _ngcontent-rrs-2="" class="fa fa-user"></span> Sign up</a></li>
+        <li _ngcontent-rrs-2=""><a _ngcontent-rrs-2="" class="btn btn-primary" href="http://localhost:3000/auth/facebook"><span _ngcontent-rrs-2="" class="fa fa-facebook"></span> Facebook</a></li>
+        <li _ngcontent-rrs-2=""><a _ngcontent-rrs-2="" class="btn btn-primary" href="http://localhost:3000/auth/twitter"><span _ngcontent-rrs-2="" class="fa fa-twitter"></span> Twitter</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div _ngcontent-rrs-2="" class="panel panel-info text-center">
+  <div _ngcontent-rrs-2="" class="panel-heading">
+   <div _ngcontent-rrs-2="" class="row">
+    <div _ngcontent-rrs-2="" class="col-sm-2"></div>
+     <div _ngcontent-rrs-2="" class="col-sm-8"><h1 _ngcontent-rrs-2="">TRAVELgUIDE</h1></div>
+      <div _ngcontent-rrs-2="" class="col-sm-2">
+
+        <form _ngcontent-rrs-2="" class="ng-valid ng-touched ng-dirty">
+          <div _ngcontent-rrs-2="" class="input-group">
+            <input _ngcontent-rrs-2="" class="form-control ng-valid ng-touched ng-dirty" name="search" placeholder="Search" type="text" ng-reflect-name="search" ng-reflect-model="a">
+            <div _ngcontent-rrs-2="" class="input-group-btn">
+              <button _ngcontent-rrs-2="" class="btn btn-default" type="submit">
+                <i _ngcontent-rrs-2="" class="glyphicon glyphicon-search"></i>
+              </button>
+            </div>
+          </div>
+        </form>
+<p _ngcontent-rrs-2=""></p>
+      </div>
+     </div>
+   </div>
+</div>
+
+<!--template bindings={
+  "ng-reflect-ng-if": "true"
+}--><div _ngcontent-rrs-2="" class="container-fluid text-center bottom">
+  <div _ngcontent-rrs-2="" class="row content">
+    <div _ngcontent-rrs-2="" class="col-sm-2 sidenav">
+      
+    </div>
+
+      <div _ngcontent-rrs-2="" class="col-sm-8 text-left">
+        <!--template bindings={
+  "ng-reflect-ng-for-of": "[object Object],[object Object],[object Object]"
+}--><div _ngcontent-rrs-2="" class="col-sm-12 text-left  margin">
+          <div _ngcontent-rrs-2="" class="row">
+            <div _ngcontent-rrs-2="" class="col-sm-8"> <h4 _ngcontent-rrs-2="">ionica</h4></div>
+            <div _ngcontent-rrs-2="" class="col-sm-4 text-right"> <p _ngcontent-rrs-2="">2017-02-11</p></div>
+          </div>
+          <div _ngcontent-rrs-2="" class="row">
+            <div _ngcontent-rrs-2="" class="col-sm-12"> <h4 _ngcontent-rrs-2="">grecia</h4></div>
+          </div>
+          <div _ngcontent-rrs-2="" class="row">
+            <div _ngcontent-rrs-2="" class="col-sm-12"> <h5 _ngcontent-rrs-2="">sasa</h5></div>
+          </div>
+          <div _ngcontent-rrs-2="" class="row">
+            <div _ngcontent-rrs-2="" class="col-sm-12 text-center toggle"> <h2 _ngcontent-rrs-2="">sasassa</h2></div>
+          </div>
+          <p _ngcontent-rrs-2="">
+            <button _ngcontent-rrs-2="" class="btn btn-info btn-sm" type="button">Reed More
+            </button>
+          </p>
+          <accordion _ngcontent-rrs-2="" role="tablist" class="panel-group" aria-multiselectable="false">
+            <accordion-group _ngcontent-rrs-2="">
+<div class="panel card panel-default" ng-reflect-klass="panel card" ng-reflect-ng-class="panel-default">
+  <div class="panel-heading card-header" role="tab">
+    <div class="panel-title card-title">
+      <div class="accordion-toggle" role="button" aria-expanded="false">
+        <!--template bindings={
+  "ng-reflect-ng-if": null
+}-->
+        <div _ngcontent-rrs-2="" accordion-heading="">
+                sasassa...
+                <i _ngcontent-rrs-2="" class="pull-right float-xs-right glyphicon glyphicon-chevron-right" ng-reflect-klass="pull-right float-xs-right glyphicon" ng-reflect-ng-class="[object Object]"></i>
+              </div>
+      </div>
+    </div>
+  </div>
+  <div class="panel-collapse collapse" role="tabpanel" ng-reflect-collapse="true" aria-expanded="false" aria-hidden="true" style="display: none;">
+    <div class="panel-body card-block">
+      
+              
+              <p _ngcontent-rrs-2="" class="limit">sajhfhjghfsjghhghhsjgdfhgfhshjfgsdf</p>
+            
+    </div>
+  </div>
+</div>
+  </accordion-group>
+          </accordion>
+          <hr _ngcontent-rrs-2="">
+          
+
+        </div><div _ngcontent-rrs-2="" class="col-sm-12 text-left  margin">
+          <div _ngcontent-rrs-2="" class="row">
+            <div _ngcontent-rrs-2="" class="col-sm-8"> <h4 _ngcontent-rrs-2="">ion ion</h4></div>
+            <div _ngcontent-rrs-2="" class="col-sm-4 text-right"> <p _ngcontent-rrs-2="">2017-02-12</p></div>
+          </div>
+          <div _ngcontent-rrs-2="" class="row">
+            <div _ngcontent-rrs-2="" class="col-sm-12"> <h4 _ngcontent-rrs-2="">Grecia</h4></div>
+          </div>
+          <div _ngcontent-rrs-2="" class="row">
+            <div _ngcontent-rrs-2="" class="col-sm-12"> <h5 _ngcontent-rrs-2="">la</h5></div>
+          </div>
+          <div _ngcontent-rrs-2="" class="row">
+            <div _ngcontent-rrs-2="" class="col-sm-12 text-center toggle"> <h2 _ngcontent-rrs-2="">superb</h2></div>
+          </div>
+          <p _ngcontent-rrs-2="">
+            <button _ngcontent-rrs-2="" class="btn btn-info btn-sm" type="button">Reed More
+            </button>
+          </p>
+          <accordion _ngcontent-rrs-2="" role="tablist" class="panel-group" aria-multiselectable="false">
+            <accordion-group _ngcontent-rrs-2="">
+<div class="panel card panel-default" ng-reflect-klass="panel card" ng-reflect-ng-class="panel-default">
+  <div class="panel-heading card-header" role="tab">
+    <div class="panel-title card-title">
+      <div class="accordion-toggle" role="button" aria-expanded="false">
+        <!--template bindings={
+  "ng-reflect-ng-if": null
+}-->
+        <div _ngcontent-rrs-2="" accordion-heading="">
+                superb...
+                <i _ngcontent-rrs-2="" class="pull-right float-xs-right glyphicon glyphicon-chevron-right" ng-reflect-klass="pull-right float-xs-right glyphicon" ng-reflect-ng-class="[object Object]"></i>
+              </div>
+      </div>
+    </div>
+  </div>
+  <div class="panel-collapse collapse" role="tabpanel" ng-reflect-collapse="true" aria-expanded="false" aria-hidden="true" style="display: none;">
+    <div class="panel-body card-block">
+      
+              
+              <p _ngcontent-rrs-2="" class="limit">Recap for clarity: I want:
+
+A big collection of data that has a unique identifier connected to an 'interface' or find method.
+This interface should make it possible to input this unique id and access with it the desired object.
+Then all properties of this object should be accessible. Or actually only the url in this case. Point being: it should be there, not just the interface property, but any desired object property.
+Then all this elegantly wrapped up in a Angular 2 ngIf statement.
+I wouldn't have thought this in-array-find-by-object-property thing would be so hard but it's been a </p>
+            
+    </div>
+  </div>
+</div>
+  </accordion-group>
+          </accordion>
+          <hr _ngcontent-rrs-2="">
+          
+
+        </div><div _ngcontent-rrs-2="" class="col-sm-12 text-left  margin">
+          <div _ngcontent-rrs-2="" class="row">
+            <div _ngcontent-rrs-2="" class="col-sm-8"> <h4 _ngcontent-rrs-2="">alina bianca</h4></div>
+            <div _ngcontent-rrs-2="" class="col-sm-4 text-right"> <p _ngcontent-rrs-2="">2017-02-25</p></div>
+          </div>
+          <div _ngcontent-rrs-2="" class="row">
+            <div _ngcontent-rrs-2="" class="col-sm-12"> <h4 _ngcontent-rrs-2="">albania</h4></div>
+          </div>
+          <div _ngcontent-rrs-2="" class="row">
+            <div _ngcontent-rrs-2="" class="col-sm-12"> <h5 _ngcontent-rrs-2="">Sarande</h5></div>
+          </div>
+          <div _ngcontent-rrs-2="" class="row">
+            <div _ngcontent-rrs-2="" class="col-sm-12 text-center toggle"> <h2 _ngcontent-rrs-2="">vacanta</h2></div>
+          </div>
+          <p _ngcontent-rrs-2="">
+            <button _ngcontent-rrs-2="" class="btn btn-info btn-sm" type="button">Reed More
+            </button>
+          </p>
+          <accordion _ngcontent-rrs-2="" role="tablist" class="panel-group" aria-multiselectable="false">
+            <accordion-group _ngcontent-rrs-2="">
+<div class="panel card panel-default" ng-reflect-klass="panel card" ng-reflect-ng-class="panel-default">
+  <div class="panel-heading card-header" role="tab">
+    <div class="panel-title card-title">
+      <div class="accordion-toggle" role="button" aria-expanded="false">
+        <!--template bindings={
+  "ng-reflect-ng-if": null
+}-->
+        <div _ngcontent-rrs-2="" accordion-heading="">
+                vacanta...
+                <i _ngcontent-rrs-2="" class="pull-right float-xs-right glyphicon glyphicon-chevron-right" ng-reflect-klass="pull-right float-xs-right glyphicon" ng-reflect-ng-class="[object Object]"></i>
+              </div>
+      </div>
+    </div>
+  </div>
+  <div class="panel-collapse collapse" role="tabpanel" ng-reflect-collapse="true" aria-expanded="false" aria-hidden="true" style="display: none;">
+    <div class="panel-body card-block">
+      
+              
+              <p _ngcontent-rrs-2="" class="limit">hdfkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh.</p>
+            
+    </div>
+  </div>
+</div>
+  </accordion-group>
+          </accordion>
+          <hr _ngcontent-rrs-2="">
+          
+
+        </div>
+      </div>
+
+    <div _ngcontent-rrs-2="" class="col-sm-2 sidenav">
+     
+    </div>
+
+    
+
+    <!--template bindings={
+  "ng-reflect-ng-if": "2"
+}--><ul _ngcontent-rrs-2="" class="pagination">
+      <li _ngcontent-rrs-2="" ng-reflect-ng-class="[object Object]" class="disabled">
+        <a _ngcontent-rrs-2="">First</a>
+      </li>
+      <li _ngcontent-rrs-2="" ng-reflect-ng-class="[object Object]" class="disabled">
+        <a _ngcontent-rrs-2="">Previous</a>
+      </li>
+      <!--template bindings={
+  "ng-reflect-ng-for-of": "1,2"
+}--><li _ngcontent-rrs-2="" ng-reflect-ng-class="[object Object]" class="active">
+        <a _ngcontent-rrs-2="">1</a>
+      </li><li _ngcontent-rrs-2="" ng-reflect-ng-class="[object Object]">
+        <a _ngcontent-rrs-2="">2</a>
+      </li>
+      <li _ngcontent-rrs-2="" ng-reflect-ng-class="[object Object]">
+        <a _ngcontent-rrs-2="">Next</a>
+      </li>
+      <li _ngcontent-rrs-2="" ng-reflect-ng-class="[object Object]">
+        <a _ngcontent-rrs-2="">Last</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+<!--template bindings={
+  "ng-reflect-ng-if": null
+}-->
+
+<!--template bindings={
+  "ng-reflect-ng-if": null
+}-->
+
+
+
+
+
+</app-root>
+  <footer class="container-fluid text-center">
+    <p>© TRAVELgUIDE <script type="text/javascript">
+      document.write(new Date().getFullYear());
+             </script>2017</p>
+  </footer>
+<script type="text/javascript" src="./travelguide_files/inline.bundle.js.download"></script><script type="text/javascript" src="./travelguide_files/vendor.bundle.js.download"></script><script type="text/javascript" src="./travelguide_files/main.bundle.js.download"></script>
+
+</body></html>

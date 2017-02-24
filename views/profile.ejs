@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+    <title>TRAVELgUIDE profile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <style>
+        body        { padding-top:1%; word-wrap:break-word; }
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <div class="page-header text-center">
+        <h1><span class="fa fa-anchor"></span> Profile Page</h1>
+        <a href="http://localhost:4200" class="btn btn-default btn-sm">Logout</a>
+    </div>
+    <div class="row">
+        <!-- LOCAL INFORMATION -->
+        <div class="col-sm-12">
+            <div class="well">
+                <h3><span class="fa fa-user"></span> <%= user.local.email %></h3>
+                <form method="post"  enctype="multipart/form-data" action="/profile" >
+                    <div class="form-group">
+                        <label>Name</label>
+                        <input type="text" class="form-control" name="name" required>
+                        <label>Country</label>
+                        <input type="text" class="form-control" name="country" required>
+                        <label>Region</label>
+                        <input type="text" class="form-control" name="region">
+                        <label>Date</label>
+                        <input type="date" class="form-control" name="date">
+                        <label>Title</label>
+                        <input type="text" class="form-control" name="title" required>
+                        <label>Comment</label>
+                        <textarea class="form-control" rows="10" name="comment" placeholder="Enter text here..." required></textarea>
+                        <label>File Upload</br>Select a file:</label>
+                        <input type="file" name="img" multiple />
+                        <br />
+                        <button type="submit" value ="Upload" class="btn btn-info btn-lg">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

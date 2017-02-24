@@ -1,0 +1,446 @@
+webpackJsonp([0,3],{
+
+/***/ 1033:
+/***/ function(module, exports, __webpack_require__) {
+
+__webpack_require__(444);
+module.exports = __webpack_require__(441);
+
+
+/***/ },
+
+/***/ 354:
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(336);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(398);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__);
+/* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return AppService; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var _ = __webpack_require__(1038)._;
+var AppService = (function () {
+    function AppService(http) {
+        this.http = http;
+        this.headers = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Headers */]({ 'content-type': 'application/json', 'charset': 'UTF-8' });
+        this.options = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* RequestOptions */]({ headers: this.headers });
+    }
+    AppService.prototype.getLogin = function () {
+        return window.location.href = 'http://localhost:3000/login';
+    };
+    AppService.prototype.getSignup = function () {
+        return window.location.href = 'http://localhost:3000/signup';
+    };
+    AppService.prototype.getProfiles = function () {
+        return this.http.get('http://localhost:3000/profiles').map(function (res) { return res.json(); });
+    };
+    AppService.prototype.sendMail = function () {
+        return location.href = 'mailto:cazacu1982@yahoo.com';
+    };
+    AppService.prototype.getPager = function (totalItems, currentPage, pageSize) {
+        if (currentPage === void 0) { currentPage = 1; }
+        if (pageSize === void 0) { pageSize = 3; }
+        var totalPages = Math.ceil(totalItems / pageSize);
+        var startPage, endPage;
+        if (totalPages <= 3) {
+            startPage = 1;
+            endPage = totalPages;
+        }
+        else {
+            if (currentPage <= 6) {
+                startPage = 1;
+                endPage = 10;
+            }
+            else if (currentPage + 4 >= totalPages) {
+                startPage = totalPages - 9;
+                endPage = totalPages;
+            }
+            else {
+                startPage = currentPage - 5;
+                endPage = currentPage + 4;
+            }
+        }
+        var startIndex = (currentPage - 1) * pageSize;
+        var endIndex = Math.min(startIndex + pageSize - 1, totalItems - 1);
+        var pages = _.range(startPage, endPage + 1);
+        return {
+            totalItems: totalItems,
+            currentPage: currentPage,
+            pageSize: pageSize,
+            totalPages: totalPages,
+            startPage: startPage,
+            endPage: endPage,
+            startIndex: startIndex,
+            endIndex: endIndex,
+            pages: pages
+        };
+    };
+    AppService.prototype.search = function (array, query) {
+        var lQuery = query.toLowerCase();
+        if (!query) {
+            return array;
+        }
+        else if (array) {
+            var filteredArray = array.filter(function (item) {
+                for (var key in item) {
+                    for (var i in item[key]) {
+                        console.log(item[key][i]);
+                    }
+                }
+            });
+            //console.log(filteredArray);
+            return filteredArray;
+        }
+    };
+    AppService = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["R" /* Injectable */])(), 
+        __metadata('design:paramtypes', [(typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_http__["c" /* Http */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_1__angular_http__["c" /* Http */]) === 'function' && _a) || Object])
+    ], AppService);
+    return AppService;
+    var _a;
+}());
+//# sourceMappingURL=C:/develop/hostingTestAngular/travelguide/ngClient/src/app.service.js.map
+
+/***/ },
+
+/***/ 440:
+/***/ function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 440;
+
+
+/***/ },
+
+/***/ 441:
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__polyfills_ts__ = __webpack_require__(553);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__polyfills_ts___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__polyfills_ts__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__ = __webpack_require__(529);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__environments_environment__ = __webpack_require__(552);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_app_module__ = __webpack_require__(550);
+
+
+
+
+
+if (__WEBPACK_IMPORTED_MODULE_3__environments_environment__["a" /* environment */].production) {
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__angular_core__["_37" /* enableProdMode */])();
+}
+__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_4__app_app_module__["a" /* AppModule */]);
+//# sourceMappingURL=C:/develop/hostingTestAngular/travelguide/ngClient/src/main.js.map
+
+/***/ },
+
+/***/ 549:
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_service__ = __webpack_require__(354);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Rx__ = __webpack_require__(724);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Rx___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Rx__);
+/* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return AppComponent; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var AppComponent = (function () {
+    function AppComponent(appService) {
+        this.appService = appService;
+        this.isHomeVisible = true;
+        this.isAboutVisible = false;
+        this.isContactVisible = false;
+        this.status = {
+            isFirstOpen: true,
+            isOpen: false
+        };
+        // pager object
+        this.pager = {};
+        this.filteredArray = this.profiles;
+    }
+    AppComponent.prototype.ngOnInit = function () {
+        this.getProfiles();
+    };
+    AppComponent.prototype.getLogin = function () {
+        this.appService.getLogin();
+    };
+    AppComponent.prototype.getSignup = function () {
+        this.appService.getSignup();
+    };
+    AppComponent.prototype.getProfiles = function () {
+        var _this = this;
+        this.appService.getProfiles().subscribe(function (data) {
+            _this.profiles = data
+                .filter(function (el) { return el.profile; })
+                .reverse();
+            _this.setPage(1);
+            //error => console.log(error)
+            //console.log(this.profiles);
+        });
+    };
+    AppComponent.prototype.search = function () {
+        var Obj = this.profiles;
+        Obj.filter(function (el) { return el.profile.country === 'grecia'; });
+        console.log(Obj);
+        /* this.filteredArray = this.appService.search(this.profiles, this.query);
+        console.log(this.filteredArray);*/
+    };
+    AppComponent.prototype.sendMail = function () {
+        this.appService.sendMail();
+    };
+    AppComponent.prototype.setPage = function (page) {
+        if (page < 1 || page > this.pager.totalPages) {
+            return;
+        }
+        this.pager = this.appService.getPager(this.profiles.length, page);
+        this.pagedItems = this.profiles.slice(this.pager.startIndex, this.pager.endIndex + 1);
+        //console.log(this.pagedItems);
+    };
+    AppComponent.prototype.isHome = function () {
+        this.isHomeVisible = true;
+        this.isContactVisible = false;
+        this.isAboutVisible = false;
+    };
+    AppComponent.prototype.isAbout = function () {
+        this.isAboutVisible = true;
+        this.isHomeVisible = false;
+        this.isContactVisible = false;
+    };
+    AppComponent.prototype.isContact = function () {
+        this.isContactVisible = true;
+        this.isHomeVisible = false;
+        this.isAboutVisible = false;
+    };
+    AppComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["G" /* Component */])({
+            selector: 'app-root',
+            template: __webpack_require__(721),
+            styles: [__webpack_require__(720)]
+        }), 
+        __metadata('design:paramtypes', [(typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__app_service__["a" /* AppService */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_1__app_service__["a" /* AppService */]) === 'function' && _a) || Object])
+    ], AppComponent);
+    return AppComponent;
+    var _a;
+}());
+//# sourceMappingURL=C:/develop/hostingTestAngular/travelguide/ngClient/src/app.component.js.map
+
+/***/ },
+
+/***/ 550:
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(231);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(520);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(336);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_ng2_bootstrap_accordion__ = __webpack_require__(710);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_component__ = __webpack_require__(549);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__app_service__ = __webpack_require__(354);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__app_pipe__ = __webpack_require__(551);
+/* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return AppModule; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+var AppModule = (function () {
+    function AppModule() {
+    }
+    AppModule = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_5__app_component__["a" /* AppComponent */],
+                __WEBPACK_IMPORTED_MODULE_7__app_pipe__["a" /* AppPipe */]
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["b" /* BrowserModule */],
+                //AppRoutingModule,
+                __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormsModule */],
+                __WEBPACK_IMPORTED_MODULE_3__angular_http__["d" /* HttpModule */],
+                __WEBPACK_IMPORTED_MODULE_4_ng2_bootstrap_accordion__["a" /* AccordionModule */].forRoot()
+            ],
+            providers: [__WEBPACK_IMPORTED_MODULE_6__app_service__["a" /* AppService */]],
+            bootstrap: [__WEBPACK_IMPORTED_MODULE_5__app_component__["a" /* AppComponent */]]
+        }), 
+        __metadata('design:paramtypes', [])
+    ], AppModule);
+    return AppModule;
+}());
+//# sourceMappingURL=C:/develop/hostingTestAngular/travelguide/ngClient/src/app.module.js.map
+
+/***/ },
+
+/***/ 551:
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return AppPipe; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var AppPipe = (function () {
+    function AppPipe() {
+    }
+    AppPipe.prototype.filterByString = function (filter) {
+        filter = filter.toLowerCase();
+        return function (value) {
+            return !filter || value.toLowerCase().indexOf(filter) !== -1;
+        };
+    };
+    AppPipe.prototype.transform = function (array, filter) {
+        var type = typeof filter;
+        if (type === 'string') {
+            return array.filter(this.filterByString(filter));
+        }
+    };
+    AppPipe = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* Pipe */])({
+            name: 'searchPipe',
+            pure: false
+        }), 
+        __metadata('design:paramtypes', [])
+    ], AppPipe);
+    return AppPipe;
+}());
+//# sourceMappingURL=C:/develop/hostingTestAngular/travelguide/ngClient/src/app.pipe.js.map
+
+/***/ },
+
+/***/ 552:
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return environment; });
+// The file contents for the current environment will overwrite these during build.
+// The build system defaults to the dev environment which uses `environment.ts`, but if you do
+// `ng build --env=prod` then `environment.prod.ts` will be used instead.
+// The list of which env maps to which file can be found in `angular-cli.json`.
+var environment = {
+    production: false
+};
+//# sourceMappingURL=C:/develop/hostingTestAngular/travelguide/ngClient/src/environment.js.map
+
+/***/ },
+
+/***/ 553:
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_core_js_es6_symbol__ = __webpack_require__(568);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_core_js_es6_symbol___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_core_js_es6_symbol__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_core_js_es6_object__ = __webpack_require__(561);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_core_js_es6_object___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_core_js_es6_object__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_core_js_es6_function__ = __webpack_require__(557);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_core_js_es6_function___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_core_js_es6_function__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_core_js_es6_parse_int__ = __webpack_require__(563);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_core_js_es6_parse_int___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_core_js_es6_parse_int__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_core_js_es6_parse_float__ = __webpack_require__(562);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_core_js_es6_parse_float___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_core_js_es6_parse_float__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_core_js_es6_number__ = __webpack_require__(560);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_core_js_es6_number___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_core_js_es6_number__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_core_js_es6_math__ = __webpack_require__(559);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_core_js_es6_math___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_core_js_es6_math__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_core_js_es6_string__ = __webpack_require__(567);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_core_js_es6_string___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_core_js_es6_string__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_core_js_es6_date__ = __webpack_require__(556);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_core_js_es6_date___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_core_js_es6_date__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_core_js_es6_array__ = __webpack_require__(555);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_core_js_es6_array___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_core_js_es6_array__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_core_js_es6_regexp__ = __webpack_require__(565);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_core_js_es6_regexp___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10_core_js_es6_regexp__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_core_js_es6_map__ = __webpack_require__(558);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_core_js_es6_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_11_core_js_es6_map__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_core_js_es6_set__ = __webpack_require__(566);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_core_js_es6_set___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_12_core_js_es6_set__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_core_js_es6_reflect__ = __webpack_require__(564);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_core_js_es6_reflect___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_13_core_js_es6_reflect__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_core_js_es7_reflect__ = __webpack_require__(569);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_core_js_es7_reflect___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_14_core_js_es7_reflect__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_zone_js_dist_zone__ = __webpack_require__(1032);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_zone_js_dist_zone___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_15_zone_js_dist_zone__);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//# sourceMappingURL=C:/develop/hostingTestAngular/travelguide/ngClient/src/polyfills.js.map
+
+/***/ },
+
+/***/ 720:
+/***/ function(module, exports) {
+
+module.exports = ".limit {\r\n  word-wrap: break-word;\r\n   max-width: 100%;\r\n}\r\n.margin {\r\n   margin-bottom: 1%;\r\n}\r\n.toggle {\r\n  cursor: pointer;\r\n}\r\nhr {\r\n  margin: 1%;\r\n}\r\nform {\r\n  margin: 0.5% 0;\r\n}\r\nul {\r\n  cursor: pointer;\r\n}\r\nh1, h2, h3, h4, h5, h6 {\r\n  margin: 0.5% 0;\r\n}\r\n"
+
+/***/ },
+
+/***/ 721:
+/***/ function(module, exports) {
+
+module.exports = "<div class=\"overlay\"></div>\n<!--nav bar-->\n<nav class=\"navbar navbar-inverse\">\n  <div class=\"container-fluid\">\n    <div class=\"navbar-header\">\n      <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\"#myNavbar\">\n        <span class=\"icon-bar\"></span>\n        <span class=\"icon-bar\"></span>\n        <span class=\"icon-bar\"></span>\n      </button>\n      <a class=\"navbar-brand\" href=\"http://localhost:4200\">TRAVELgUIDE</a>\n    </div>\n    <div class=\"collapse navbar-collapse\" id=\"myNavbar\">\n      <ul class=\"nav navbar-nav\">\n        <li class=\"active\"><a href=\"#\" (click)=\"isHome()\">Home</a></li>\n        <li><a href=\"#\" (click)=\"isAbout()\">About</a></li>\n        <li><a href=\"#\" (click)=\"isContact()\">Contact</a></li>\n      </ul>\n      <ul class=\"nav navbar-nav navbar-right\">\n        <li><a href=\"#\" (click)=\"getLogin()\" class=\"btn btn-info\"><span class=\"fa fa-user\"></span> Login</a></li>\n        <li><a href=\"#\" (click)=\"getSignup()\" class=\"btn btn-info\"><span class=\"fa fa-user\"></span> Sign up</a></li>\n        <li><a href=\"http://localhost:3000/auth/facebook\" class=\"btn btn-primary\"><span class=\"fa fa-facebook\"></span> Facebook</a></li>\n        <li><a href=\"http://localhost:3000/auth/twitter\" class=\"btn btn-primary\"><span class=\"fa fa-twitter\"></span> Twitter</a></li>\n      </ul>\n    </div>\n  </div>\n</nav>\n<!--info-->\n<div class=\"panel panel-info text-center\">\n  <div class=\"panel-heading\">\n   <div class=\"row\">\n    <div class=\"col-sm-2\"></div>\n     <div class=\"col-sm-8\"><h1>TRAVELgUIDE</h1></div>\n      <div class=\"col-sm-2\">\n\n        <form>\n          <div class=\"input-group\">\n            <input #input type=\"text\" class=\"form-control\" placeholder=\"Search\" name=\"search\" (keyup)=\"search()\" [(ngModel)]=\"query\">\n            <div class=\"input-group-btn\">\n              <button class=\"btn btn-default\" type=\"submit\">\n                <i class=\"glyphicon glyphicon-search\"></i>\n              </button>\n            </div>\n          </div>\n        </form>\n<p>{{values}}</p>\n      </div>\n     </div>\n   </div>\n</div>\n<!--home left-->\n<div class=\"container-fluid text-center bottom\"  *ngIf=\"isHomeVisible\" >\n  <div class=\"row content\" >\n    <div class=\"col-sm-2 sidenav\">\n      <!--<p><a href=\"#\">Link</a></p>\n      <p><a href=\"#\">Link</a></p>\n      <p><a href=\"#\">Link</a></p>-->\n    </div>\n<!--home center-->\n      <div class=\"col-sm-8 text-left\">\n        <div class=\"col-sm-12 text-left  margin\" *ngFor=\"let item of pagedItems\">\n          <div class=\"row\">\n            <div class=\"col-sm-8\"> <h4>{{item.profile?.name}}</h4></div>\n            <div class=\"col-sm-4 text-right\"> <p>{{item.profile?.date}}</p></div>\n          </div>\n          <div class=\"row\">\n            <div class=\"col-sm-12\"> <h4>{{item.profile?.country}}</h4></div>\n          </div>\n          <div class=\"row\">\n            <div class=\"col-sm-12\"> <h5>{{item.profile?.region}}</h5></div>\n          </div>\n          <div class=\"row\">\n            <div class=\"col-sm-12 text-center toggle\"> <h2 (click)=\"group.isOpen = !group.isOpen\">{{item.profile?.title}}</h2></div>\n          </div>\n          <p>\n            <button type=\"button\" class=\"btn btn-info btn-sm\"\n                    (click)=\"group.isOpen = !group.isOpen\">Reed More\n            </button>\n          </p>\n          <accordion>\n            <accordion-group #group [isOpen]=\"status.isOpen\">\n              <div accordion-heading>\n                {{item.profile?.title}}...\n                <i class=\"pull-right float-xs-right glyphicon\"\n                   [ngClass]=\"{'glyphicon-chevron-down': group?.isOpen, 'glyphicon-chevron-right': !group?.isOpen}\"></i>\n              </div>\n              <p class=\"limit\">{{item.profile?.comment}}</p>\n            </accordion-group>\n          </accordion>\n          <hr>\n          <!--carousel-->\n\n        </div>\n      </div>\n<!--home right-->\n    <div class=\"col-sm-2 sidenav\">\n     <!-- <div class=\"well\">\n        &lt;!&ndash;<p>ADS</p>&ndash;&gt;\n      </div>\n      <div class=\"well\">\n        &lt;!&ndash;<p>ADS</p>&ndash;&gt;\n      </div>-->\n    </div>\n\n    <!--pager-->\n\n    <ul *ngIf=\"pager.pages && pager.pages.length\" class=\"pagination\">\n      <li [ngClass]=\"{disabled:pager.currentPage === 1}\">\n        <a (click)=\"setPage(1)\">First</a>\n      </li>\n      <li [ngClass]=\"{disabled:pager.currentPage === 1}\">\n        <a (click)=\"setPage(pager.currentPage - 1)\">Previous</a>\n      </li>\n      <li *ngFor=\"let page of pager.pages\" [ngClass]=\"{active:pager.currentPage === page}\">\n        <a (click)=\"setPage(page)\">{{page}}</a>\n      </li>\n      <li [ngClass]=\"{disabled:pager.currentPage === pager.totalPages}\">\n        <a (click)=\"setPage(pager.currentPage + 1)\">Next</a>\n      </li>\n      <li [ngClass]=\"{disabled: pager.currentPage === pager.totalPages}\">\n        <a (click)=\"setpage(pager.totalPages)\">Last</a>\n      </li>\n    </ul>\n  </div>\n</div>\n\n<!--about-->\n<div class=\"container text-center\" *ngIf=\"isAboutVisible\">\n  <div class=\"jumbotron\">\n    <p>- Travelguide is a platform for evryone who want to share their experience and pictures from journeys,\n      tel us about conditions, moments, interesting things to visit and things about to be aware;\n      and let us to prepare for our travel to.<br />\n      - Sign up or login with Facebook or Twitter, complete the form, upload pictures and let us now about your trip experience.\n    </p>\n  </div>\n</div>\n<!--contact-->\n<div class=\"container text-center\" *ngIf=\"isContactVisible\">\n  <div class=\"jumbotron\">\n    <p>Contact:<br/>\n      <b>Web Developer</b><br />\n          Cazacu Mihai Dragos</p>\n    <p>Email:<br/>cazacu1982@yahoo.com</p>\n    <p>Email link:\n          <button (click)=\"sendMail()\">Send email</button>\n    </p>\n\n  </div>\n</div>\n\n\n\n\n\n"
+
+/***/ }
+
+},[1033]);
+//# sourceMappingURL=main.bundle.map
