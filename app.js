@@ -56,7 +56,7 @@ db.once('open', function() {
   gfs = Grid(db.db);
 
   // create profile
-  app.post('/profile', upload.array('img', 8), function(req, res, next) {
+  app.post('/profile', upload.array('img', 8), function(req, res, next) { 
 
     var obj = new Profile();
    /* console.log(req.files);
