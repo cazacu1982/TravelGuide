@@ -48,6 +48,21 @@
       </div>
      </div>
    </div>
+  <div class="row">
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4">
+      <div class="share-container">
+        <div class="share-count">
+          <h3>{{totalShare | nFormatter}}</h3>
+          <b>SHARES</b>
+        </div>
+        <share-buttons class="withCount" [url]="'http://localhost:4200'" [title]="'TRAVELgUIDE'"
+                       [whatsApp]="false" [stumbleUpOn]="false" [tumblr]="false"  [pinterest]="false"
+                       [showCount]="true"  (count)="sumCounts($event)" [reddit]="false"></share-buttons>
+      </div>
+    </div>
+</div>
 </div>
 <!--home left-->
 <div class="container-fluid text-center bottom"  *ngIf="isHomeVisible" >
@@ -59,7 +74,7 @@
     </div>
 <!--home center-->
       <div class="col-sm-8 text-left">
-        <div class="col-sm-12 text-left  margin" *ngFor="let item of pagedItems">
+        <div class="col-sm-12 text-left  margin" *ngFor="let item of pagedItems; let i = index;">
           <div class="row">
             <div class="col-sm-8"> <h4>{{item.profile?.name}}{{item.name}}</h4></div>
             <div class="col-sm-4 text-right"> <p>{{item.profile?.date}}{{item.date}}</p></div>
@@ -74,10 +89,15 @@
             <div class="col-sm-12 text-center toggle"> <h2 (click)="group.isOpen = !group.isOpen">{{item.profile?.title}}{{item.title}}</h2></div>
           </div>
           <p>
+
             <button type="button" class="btn btn-info btn-sm"
                     (click)="group.isOpen = !group.isOpen">Reed More
             </button>
+            <button type="button" class="btn btn-success btn-sm"  (click)="countReed()">{{showCount}} Likes
+            </button>
+
           </p>
+
           <accordion>
             <accordion-group #group [isOpen]="status.isOpen">
               <div accordion-heading>
@@ -86,19 +106,37 @@
                    [ngClass]="{'glyphicon-chevron-down': group?.isOpen, 'glyphicon-chevron-right': !group?.isOpen}"></i>
               </div>
               <p class="limit">{{item.profile?.comment}}{{item.comment}}</p>
-
+ <!--carousel-->
               <carousel>
                 <slide *ngFor="let slide of (item.images) ">
                   <img src="http://localhost:3000/{{slide.originalname}}" alt="First slide">
                 </slide>
-
               </carousel>
 
             </accordion-group>
           </accordion>
           <hr>
-          <!--carousel-->
 
+        </div>
+<!--pager-->
+        <div class="pager">
+          <ul *ngIf="pager.pages && pager.pages.length" class="pagination pagination-sm">
+            <li [ngClass]="{disabled:pager.currentPage === 1}">
+              <a (click)="setPage(1)">First</a>
+            </li>
+            <li [ngClass]="{disabled:pager.currentPage === 1}">
+              <a (click)="setPage(pager.currentPage - 1)">Previous</a>
+            </li>
+            <li *ngFor="let page of pager.pages" [ngClass]="{active:pager.currentPage === page}">
+              <a (click)="setPage(page)">{{page}}</a>
+            </li>
+            <li [ngClass]="{disabled:pager.currentPage === pager.totalPages}">
+              <a (click)="setPage(pager.currentPage + 1)">Next</a>
+            </li>
+            <li [ngClass]="{disabled: pager.currentPage === pager.totalPages}">
+              <a (click)="setPage(pager.totalPages)">Last</a>
+            </li>
+          </ul>
         </div>
       </div>
 <!--home right-->
@@ -111,25 +149,7 @@
       </div>-->
     </div>
 
-    <!--pager-->
 
-    <ul *ngIf="pager.pages && pager.pages.length" class="pagination">
-      <li [ngClass]="{disabled:pager.currentPage === 1}">
-        <a (click)="setPage(1)">First</a>
-      </li>
-      <li [ngClass]="{disabled:pager.currentPage === 1}">
-        <a (click)="setPage(pager.currentPage - 1)">Previous</a>
-      </li>
-      <li *ngFor="let page of pager.pages" [ngClass]="{active:pager.currentPage === page}">
-        <a (click)="setPage(page)">{{page}}</a>
-      </li>
-      <li [ngClass]="{disabled:pager.currentPage === pager.totalPages}">
-        <a (click)="setPage(pager.currentPage + 1)">Next</a>
-      </li>
-      <li [ngClass]="{disabled: pager.currentPage === pager.totalPages}">
-        <a (click)="setPage(pager.totalPages)">Last</a>
-      </li>
-    </ul>
   </div>
 </div>
 

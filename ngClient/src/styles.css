@@ -18,14 +18,13 @@ body {
   opacity: 0.4;
   z-index: -1;
 }
+.row {
+  margin: 0;
+}
 .bottom{
   padding-bottom: 4vw;
  }
-@media screen and (max-width: 480px) {
-  .bottom {
-    padding-bottom: 20vw;
-  }
-}
+
 footer {
   background-color: #555;
   color: white;
@@ -35,6 +34,41 @@ footer {
   bottom: 0;
   left: 0;
 }
+
+span.icon-next.carousel-control-next-icon, span.icon-prev.carousel-control-prev-icon{
+  font-size: 7vw;
+  margin-top:  -50%;
+  cursor: pointer;
+}
+
+.sb-buttons.sb-style.sb-style-colors {
+  margin: 0;
+}
+.sb-style.sb-style-colors button:hover {
+  transform: scale(0.9);
+}
+
+@media screen and (max-width: 320px) {
+  span.icon-next.carousel-control-next-icon, span.icon-prev.carousel-control-prev-icon{
+    font-size: 17vw;
+    margin-top:  -90%;
+  }
+  share-button > button.sb-show-count  {
+    padding: .5em .4em;
+    font-size: 0.8em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .bottom {
+    padding-bottom: 20vw;
+  }
+  span.icon-next.carousel-control-next-icon, span.icon-prev.carousel-control-prev-icon{
+    font-size: 9vw;
+    margin-top:  -40%;
+  }
+}
+
 /* On small screens, set height to 'auto' for sidenav and grid */
 @media screen and (max-width: 767px) {
   .sidenav {

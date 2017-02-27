@@ -6,7 +6,11 @@ import { Pipe, PipeTransform } from '@angular/core';
 export class AppPipe implements PipeTransform {
 
   transform(value: any, args?: any): any {
-    return null;
+   let keys = [];
+    for (let key in value) {
+      keys.push({key: key, value: value[key]});
+    }
+    return keys;
   }
 
 }

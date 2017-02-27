@@ -2,21 +2,246 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0f83b5d-1325-483c-a943-814c25b7846d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/list-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/images.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/3b4a904809be4bc2e65db6fa388f2b54" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/56c662f10a9c64fc6711a3899f154dc2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/9659db5d6bdfc383c5df8e8da78a8946" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/c274766a3fb8180eaaca4a173a2e2879" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/Screenshot (1).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/Screenshot (1).png1488202070980" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/Screenshot (1).png1488202139900" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/Screenshot (2).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/Screenshot (2).png1488202070991" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/Screenshot (2).png1488202139913" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/Screenshot (3).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/Screenshot (37).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/Screenshot (38).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/Screenshot (39).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/Screenshot (4).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/Screenshot (45).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/Screenshot (46).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/Screenshot (47).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/Screenshot (5).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/Screenshot (9).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/Sephora_Crazy_for_mum20.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/Sephora_Crazy_for_mum21.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/Sephora_Crazy_for_mum22.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/Sephora_Crazy_for_mum8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/logo.png1488202070969" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/logo.png1488202139889" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/logo1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/logo1.png1488202070978" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/logo1.png1488202139898" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/ng2-sharebuttons/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/ng2-sharebuttons/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/ng2-sharebuttons/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/ng2-sharebuttons/bundles/ng2-sharebuttons.umd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/ng2-sharebuttons/components/share-button/share-button.component.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/ng2-sharebuttons/components/share-button/share-button.component.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/ng2-sharebuttons/components/share-button/share-button.component.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/ng2-sharebuttons/components/share-button/share-button.component.metadata.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/ng2-sharebuttons/components/share-buttons/share-buttons.component.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/ng2-sharebuttons/components/share-buttons/share-buttons.component.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/ng2-sharebuttons/components/share-buttons/share-buttons.component.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/ng2-sharebuttons/components/share-buttons/share-buttons.component.metadata.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/ng2-sharebuttons/directives/share-button/share-button.directive.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/ng2-sharebuttons/directives/share-button/share-button.directive.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/ng2-sharebuttons/directives/share-button/share-button.directive.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/ng2-sharebuttons/directives/share-button/share-button.directive.metadata.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/ng2-sharebuttons/helpers/index.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/ng2-sharebuttons/helpers/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/ng2-sharebuttons/helpers/index.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/ng2-sharebuttons/helpers/index.metadata.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/ng2-sharebuttons/helpers/n-formatter.pipe.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/ng2-sharebuttons/helpers/n-formatter.pipe.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/ng2-sharebuttons/helpers/n-formatter.pipe.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/ng2-sharebuttons/helpers/n-formatter.pipe.metadata.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/ng2-sharebuttons/helpers/share-buttons.class.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/ng2-sharebuttons/helpers/share-buttons.class.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/ng2-sharebuttons/helpers/share-buttons.class.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/ng2-sharebuttons/helpers/share-links.functions.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/ng2-sharebuttons/helpers/share-links.functions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/ng2-sharebuttons/helpers/share-links.functions.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/ng2-sharebuttons/helpers/share-provider.enum.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/ng2-sharebuttons/helpers/share-provider.enum.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/ng2-sharebuttons/helpers/share-provider.enum.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/ng2-sharebuttons/helpers/share-provider.enum.metadata.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/ng2-sharebuttons/helpers/share.helper.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/ng2-sharebuttons/helpers/share.helper.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/ng2-sharebuttons/helpers/share.helper.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/ng2-sharebuttons/index.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/ng2-sharebuttons/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/ng2-sharebuttons/index.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/ng2-sharebuttons/index.metadata.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/ng2-sharebuttons/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/ng2-sharebuttons/services/share-buttons.service.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/ng2-sharebuttons/services/share-buttons.service.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/ng2-sharebuttons/services/share-buttons.service.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/ng2-sharebuttons/services/share-buttons.service.metadata.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/ng2-sharebuttons/services/window.service.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/ng2-sharebuttons/services/window.service.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/ng2-sharebuttons/services/window.service.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/ng2-sharebuttons/services/window.service.metadata.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/ng2-sharebuttons/share-buttons.module.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/ng2-sharebuttons/share-buttons.module.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/ng2-sharebuttons/share-buttons.module.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/ng2-sharebuttons/share-buttons.module.metadata.json" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/.bin/mkdirp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/.bin/mkdirp.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/.bin/tsickle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/.bin/tsickle.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/minimist/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/minimist/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/minimist/example/parse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/minimist/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/minimist/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/minimist/readme.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/minimist/test/all_bool.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/minimist/test/bool.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/minimist/test/dash.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/minimist/test/default_bool.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/minimist/test/dotted.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/minimist/test/kv_short.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/minimist/test/long.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/minimist/test/num.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/minimist/test/parse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/minimist/test/parse_modified.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/minimist/test/short.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/minimist/test/stop_early.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/minimist/test/unknown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/minimist/test/whitespace.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/mkdirp/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/mkdirp/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/mkdirp/bin/cmd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/mkdirp/bin/usage.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/mkdirp/examples/pow.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/mkdirp/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/mkdirp/node_modules/minimist/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/mkdirp/node_modules/minimist/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/mkdirp/node_modules/minimist/example/parse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/mkdirp/node_modules/minimist/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/mkdirp/node_modules/minimist/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/mkdirp/node_modules/minimist/readme.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/mkdirp/node_modules/minimist/test/dash.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/mkdirp/node_modules/minimist/test/default_bool.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/mkdirp/node_modules/minimist/test/dotted.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/mkdirp/node_modules/minimist/test/long.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/mkdirp/node_modules/minimist/test/parse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/mkdirp/node_modules/minimist/test/parse_modified.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/mkdirp/node_modules/minimist/test/short.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/mkdirp/node_modules/minimist/test/whitespace.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/mkdirp/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/mkdirp/readme.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/mkdirp/test/chmod.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/mkdirp/test/clobber.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/mkdirp/test/mkdirp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/mkdirp/test/opts_fs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/mkdirp/test/opts_fs_sync.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/mkdirp/test/perm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/mkdirp/test/perm_sync.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/mkdirp/test/race.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/mkdirp/test/rel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/mkdirp/test/return.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/mkdirp/test/return_sync.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/mkdirp/test/root.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/mkdirp/test/sync.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/mkdirp/test/umask.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/mkdirp/test/umask_sync.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/source-map-support/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/source-map-support/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/source-map-support/LICENSE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/source-map-support/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/source-map-support/browser-source-map-support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/source-map-support/build.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/source-map-support/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/source-map-support/register.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/source-map-support/source-map-support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/source-map-support/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/source-map-support/webpack-test/compiled.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/source-map-support/webpack-test/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/source-map-support/webpack-test/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/source-map-support/webpack-test/webpack.config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/source-map/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/source-map/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/source-map/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/source-map/dist/source-map.debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/source-map/dist/source-map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/source-map/dist/source-map.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/source-map/dist/source-map.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/source-map/lib/array-set.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/source-map/lib/base64-vlq.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/source-map/lib/base64.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/source-map/lib/binary-search.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/source-map/lib/mapping-list.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/source-map/lib/quick-sort.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/source-map/lib/source-map-consumer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/source-map/lib/source-map-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/source-map/lib/source-node.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/source-map/lib/util.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/source-map/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/source-map/source-map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/tsickle/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/tsickle/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/tsickle/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/tsickle/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/tsickle/build/definitions/cli_support.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/tsickle/build/definitions/decorator-annotator.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/tsickle/build/definitions/es5processor.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/tsickle/build/definitions/jsdoc.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/tsickle/build/definitions/main.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/tsickle/build/definitions/modules_manifest.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/tsickle/build/definitions/rewriter.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/tsickle/build/definitions/tsickle.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/tsickle/build/definitions/tsickle_compiler_host.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/tsickle/build/definitions/type-translator.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/tsickle/build/definitions/util.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/tsickle/build/src/cli_support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/tsickle/build/src/cli_support.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/tsickle/build/src/decorator-annotator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/tsickle/build/src/decorator-annotator.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/tsickle/build/src/es5processor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/tsickle/build/src/es5processor.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/tsickle/build/src/jsdoc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/tsickle/build/src/jsdoc.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/tsickle/build/src/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/tsickle/build/src/main.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/tsickle/build/src/modules_manifest.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/tsickle/build/src/modules_manifest.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/tsickle/build/src/rewriter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/tsickle/build/src/rewriter.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/tsickle/build/src/tsickle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/tsickle/build/src/tsickle.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/tsickle/build/src/tsickle_compiler_host.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/tsickle/build/src/tsickle_compiler_host.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/tsickle/build/src/type-translator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/tsickle/build/src/type-translator.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/tsickle/build/src/util.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/tsickle/build/src/util.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/tsickle/gulpfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/tsickle/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/tsickle/src/cli_support.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/tsickle/src/decorator-annotator.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/tsickle/src/es5processor.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/tsickle/src/jsdoc.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/tsickle/src/main.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/tsickle/src/modules_manifest.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/tsickle/src/rewriter.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/tsickle/src/tsickle.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/tsickle/src/tsickle_compiler_host.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/tsickle/src/type-translator.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/tsickle/src/util.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/tsickle/third_party/typescript_helpers/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/tsickle/third_party/typescript_helpers/README.google" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/tsickle/third_party/typescript_helpers/helpers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/tsickle/tsconfig.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/tsickle/tslint.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/node_modules/@angular-cli/ast-tools/node_modules/tsickle/yarn.lock" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/list-bg.png" afterPath="$PROJECT_DIR$/uploads/list-bg.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/profile.js" afterPath="$PROJECT_DIR$/models/profile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/user.js" afterPath="$PROJECT_DIR$/models/user.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ngClient/package.json" afterPath="$PROJECT_DIR$/ngClient/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ngClient/src/app/app.component.css" afterPath="$PROJECT_DIR$/ngClient/src/app/app.component.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ngClient/src/app/app.component.html" afterPath="$PROJECT_DIR$/ngClient/src/app/app.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ngClient/src/app/app.component.ts" afterPath="$PROJECT_DIR$/ngClient/src/app/app.component.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ngClient/src/app/app.module.ts" afterPath="$PROJECT_DIR$/ngClient/src/app/app.module.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/routes.js" afterPath="$PROJECT_DIR$/routes/routes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/profile.ejs" afterPath="$PROJECT_DIR$/views/profile.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ngClient/src/app/app.pipe.ts" afterPath="$PROJECT_DIR$/ngClient/src/app/app.pipe.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ngClient/src/styles.css" afterPath="$PROJECT_DIR$/ngClient/src/styles.css" />
     </list>
     <ignored path="travelguide.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,28 +267,18 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="166" column="54" selection-start-line="166" selection-start-column="54" selection-end-line="166" selection-end-column="54" />
+            <state relative-caret-position="323">
+              <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ngClient/src/index.html">
+      <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ngClient/src/app/app.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="profile.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/profile.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+            <state relative-caret-position="238">
+              <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -79,38 +294,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ngClient/src/app/app.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="94" column="25" selection-start-line="94" selection-start-column="25" selection-end-line="94" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.component.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ngClient/src/app/app.component.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list-bg.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/uploads/list-bg.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="routes.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1275">
+            <state relative-caret-position="368">
               <caret line="87" column="4" selection-start-line="87" selection-start-column="4" selection-end-line="87" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ngClient/src/app/app.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2">
+              <caret line="95" column="101" selection-start-line="95" selection-start-column="101" selection-end-line="95" selection-end-column="101" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.component.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ngClient/src/app/app.component.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-459">
+              <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ngClient/src/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -141,24 +359,24 @@
         <option value="$PROJECT_DIR$/views/login.ejs" />
         <option value="$PROJECT_DIR$/views/signup.ejs" />
         <option value="$PROJECT_DIR$/ngClient/src/index.html" />
-        <option value="$PROJECT_DIR$/ngClient/src/styles.css" />
-        <option value="$PROJECT_DIR$/ngClient/src/app/app.pipe.ts" />
         <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/views/index.ejs" />
         <option value="$PROJECT_DIR$/views/admin.ejs" />
         <option value="$PROJECT_DIR$/ngClient/src/app/app.service.ts" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/ngClient/angular-cli.json" />
-        <option value="$PROJECT_DIR$/ngClient/src/app/app.component.ts" />
         <option value="$PROJECT_DIR$/models/user.js" />
         <option value="$PROJECT_DIR$/models/images.js" />
         <option value="$PROJECT_DIR$/routes/routes.js" />
         <option value="$PROJECT_DIR$/models/profile.js" />
-        <option value="$PROJECT_DIR$/ngClient/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/views/profile.ejs" />
+        <option value="$PROJECT_DIR$/ngClient/src/app/app.pipe.ts" />
         <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/ngClient/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/ngClient/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/ngClient/src/app/app.component.css" />
+        <option value="$PROJECT_DIR$/ngClient/src/styles.css" />
+        <option value="$PROJECT_DIR$/ngClient/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/ngClient/src/app/app.component.ts" />
       </list>
     </option>
   </component>
@@ -203,7 +421,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -247,24 +467,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="travelguide" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="travelguide" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -322,10 +524,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="travelguide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="travelguide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -749,7 +963,8 @@
       <workItem from="1487660687912" duration="646000" />
       <workItem from="1487678521667" duration="54000" />
       <workItem from="1487834133475" duration="16643000" />
-      <workItem from="1487919974481" duration="30963000" />
+      <workItem from="1487919974481" duration="31027000" />
+      <workItem from="1488182948300" duration="28081000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <created>1486629920503</created>
@@ -905,14 +1120,21 @@
       <option name="project" value="LOCAL" />
       <updated>1487931608830</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="ok">
+      <created>1487953930365</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1487953930365</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="245015000" />
+    <option name="totallyTimeSpent" value="273160000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1374" y="297" width="1382" height="744" extended-state="0" />
+    <frame x="-1374" y="297" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -922,10 +1144,10 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26962456" sideWeight="0.5060514" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26666668" sideWeight="0.49394855" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2662116" sideWeight="0.49394855" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27155825" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2753404" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -952,10 +1174,10 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26666668" sideWeight="0.49394855" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2662116" sideWeight="0.49394855" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27155825" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2753404" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -985,7 +1207,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/ngClient/src/app/app.module.ts</url>
-          <line>8</line>
+          <line>9</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
@@ -994,22 +1216,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ngClient/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="60" column="7" selection-start-line="60" selection-start-column="7" selection-end-line="60" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/routes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1098,21 +1304,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ngClient/src/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ngClient/dist/index.html" />
-    <entry file="file://$PROJECT_DIR$/ngClient/src/app/app.pipe.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/signup.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="417">
@@ -1164,15 +1356,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ngClient/src/app/app.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
-          <caret line="51" column="4" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1180,56 +1363,56 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uploads/mockup Givenchy.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uploads/Sephora_Crazy_for_mum.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/uploads/mockup Givenchy.png" />
+    <entry file="file://$PROJECT_DIR$/uploads/Sephora_Crazy_for_mum.png" />
     <entry file="file://$PROJECT_DIR$/models/images.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uploads/Screenshot (16).png" />
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/profile.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uploads/Screenshot (16).png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ngClient/src/app/app.module.ts">
+    <entry file="file://$PROJECT_DIR$/ngClient/angular-cli.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#58#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="266">
+          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ngClient/src/app/app.component.ts">
+    <entry file="file://$PROJECT_DIR$/ngClient/src/app/app.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="65" column="56" selection-start-line="65" selection-start-column="56" selection-end-line="65" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="623">
+          <caret line="51" column="4" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uploads/list-bg.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/routes/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="87" column="4" selection-start-line="87" selection-start-column="4" selection-end-line="87" selection-end-column="4" />
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/profile.js">
@@ -1240,19 +1423,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="87" column="4" selection-start-line="87" selection-start-column="4" selection-end-line="87" selection-end-column="4" />
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/uploads/list-bg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ngClient/angular-cli.json">
+    <entry file="file://$PROJECT_DIR$/uploads/logo1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uploads/logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ngClient/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
-          <folding />
+        <state relative-caret-position="215">
+          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1264,42 +1456,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/profile.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="166" column="54" selection-start-line="166" selection-start-column="54" selection-end-line="166" selection-end-column="54" />
+        <state relative-caret-position="323">
+          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ngClient/src/app/app.component.html">
+    <entry file="file://$PROJECT_DIR$/ngClient/src/app/app.pipe.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="94" column="25" selection-start-line="94" selection-start-column="25" selection-end-line="94" selection-end-column="25" />
+        <state relative-caret-position="272">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ngClient/src/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ngClient/src/app/app.component.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+        <state relative-caret-position="-459">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ngClient/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2">
+          <caret line="95" column="101" selection-start-line="95" selection-start-column="101" selection-end-line="95" selection-end-column="101" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ngClient/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
           <folding />
         </state>
       </provider>

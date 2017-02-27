@@ -65,7 +65,7 @@ db.once('open', function() {
       cb(null, 'uploads/')
     },
     filename: function(req, file, cb) {
-      cb(null, file.originalname);
+      cb(null, file.originalname + Date.now());
     }
   });
 
@@ -99,7 +99,7 @@ db.once('open', function() {
   app.post('/profile', upload.array('img', 8), function(req, res, next) {
 
     var obj = new Profile();
-console.log(req.files);
+    //console.log(req.files);
    
     obj.images = req.files;
 

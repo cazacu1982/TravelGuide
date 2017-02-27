@@ -3,7 +3,14 @@
    max-width: 100%;
 }
 .margin {
-   margin-bottom: 1%;
+   margin: 1%;
+
+}
+.row {
+  margin: 0;
+}
+.col-sm-8.text-left {
+  padding: 0;
 }
 .toggle {
   cursor: pointer;
@@ -24,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {
 
 slide {
   margin: auto;
-  height: 20vw;
+  height: 25vw;
 }
 .item {
   text-align: center;
@@ -32,9 +39,45 @@ slide {
 }
 .item  img {
   max-width:80%;
-  max-height:100%;
+  max-height:25vw;
+  //display: inline-block;
+  height: 100%;
+}
+
+.share-container {
+  display: flex;
+  align-items: center;
 
 }
-.right span {
-
+.share-count {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 1rem;
+  margin-right: 1rem;
+  border-right: 2px solid #ccc;
 }
+
+h3 {
+  display: flex;
+  flex-direction: column-reverse;
+  font-size: 2rem;
+  margin: 0;
+}
+b {
+  font-size: .7rem;
+}
+
+
+@media screen and (max-width: 320px) {
+  slide {
+    margin: auto;
+    height: 35vw;
+  }
+  .item  img {
+
+    max-height:35vw;
+
+  }
+}
+

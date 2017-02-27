@@ -21,8 +21,11 @@ export class AppComponent {
   // pager object
   pager: any = {};
   // pagedItems
-  pagedItems: any[];
+  pagedItems: Array<any>;
   query: string;
+
+  totalShare: number = 0;
+  showCount: number = 0;
 
   constructor(public appService: AppService) {}
 
@@ -56,19 +59,23 @@ export class AppComponent {
       let newFiltered = Obj.map(el => el);
 
       for (var i = 0; i < newFiltered.length; i++) {
+        console.log(i);
         for (var prop in newFiltered[i])
           // condition here
-          newFiltered[i][prop] = newFiltered[i][prop].toString().toLowerCase();
+        if(typeof newFiltered[i][prop] === 'string') {
+          newFiltered[i][prop] = newFiltered[i][prop].toLowerCase();
+        }
       }
-
       let filtered = newFiltered.filter((el) => {
         if (el.country === this.query.toLowerCase() === true) {
-          return el.country === this.query.toLowerCase()
+          return el.country === this.query.toLowerCase();
         }
         else {
           return el.region === this.query.toLowerCase();
         }
       });
+
+      console.log(this.pagedItems);
       return this.pagedItems = filtered;
     }
   };
@@ -87,6 +94,15 @@ export class AppComponent {
     this.pagedItems = this.profiles.slice(this.pager.startIndex, this.pager.endIndex  + 1);
     //{console.log(this.pager.totalPages)}
   }
+
+  sumCounts(count){
+    this.totalShare += count;
+  }
+
+  countReed(event) {
+   this.showCount += 1;
+  }
+
 
   isHome() {
     this.isHomeVisible = true;
