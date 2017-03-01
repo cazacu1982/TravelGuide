@@ -5,6 +5,7 @@ import { HttpModule } from '@angular/http';
 import { AccordionModule } from 'ng2-bootstrap/accordion';
 import { CarouselModule } from 'ng2-bootstrap/carousel';
 import {ShareButtonsModule} from 'ng2-sharebuttons';
+
 //import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';

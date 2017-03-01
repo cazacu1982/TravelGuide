@@ -68,6 +68,13 @@ b {
   font-size: .7rem;
 }
 
+.scrollTop {
+  position: fixed;
+  bottom: 8%;
+  right: 2%;
+  cursor: pointer;
+}
+
 
 @media screen and (max-width: 320px) {
   slide {

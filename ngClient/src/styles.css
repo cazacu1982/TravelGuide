@@ -1,11 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
 html {
   height: 100%;
+  transition: 1500ms;
 }
 body {
   position: relative;
   min-height: 100%;
   font-family: "Lucida Console", Monaco, monospace !important;
+  transition: 1500ms;
 }
 .overlay {
   position: absolute;
@@ -13,7 +15,8 @@ body {
   left:0;
   right: 0;
   bottom: 0;
-  background: url("../src/assets/images/vacanta_(2).jpg")  repeat-y;
+  //background-color: red;
+  background: url("../src/assets/images/vacanta.jpg")  repeat-y;
   background-size: cover;
   opacity: 0.4;
   z-index: -1;

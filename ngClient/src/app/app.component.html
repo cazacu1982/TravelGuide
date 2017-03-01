@@ -58,7 +58,7 @@
           <b>SHARES</b>
         </div>
         <share-buttons class="withCount" [url]="'http://localhost:4200'" [title]="'TRAVELgUIDE'"
-                       [whatsApp]="false" [stumbleUpOn]="false" [tumblr]="false"  [pinterest]="false"
+                        [stumbleUpOn]="false" [tumblr]="false"  [pinterest]="false"
                        [showCount]="true"  (count)="sumCounts($event)" [reddit]="false"></share-buttons>
       </div>
     </div>
@@ -74,7 +74,7 @@
     </div>
 <!--home center-->
       <div class="col-sm-8 text-left">
-        <div class="col-sm-12 text-left  margin" *ngFor="let item of pagedItems; let i = index;">
+        <div class="col-sm-12 text-left  margin" *ngFor="let item of pagedItems; let i = index; let c = count;">
           <div class="row">
             <div class="col-sm-8"> <h4>{{item.profile?.name}}{{item.name}}</h4></div>
             <div class="col-sm-4 text-right"> <p>{{item.profile?.date}}{{item.date}}</p></div>
@@ -93,8 +93,8 @@
             <button type="button" class="btn btn-info btn-sm"
                     (click)="group.isOpen = !group.isOpen">Reed More
             </button>
-            <button type="button" class="btn btn-success btn-sm"  (click)="countReed()">{{showCount}} Likes
-            </button>
+
+            <button type="submit" class="btn btn-success btn-sm"  (click)="updateLikes(item)" > {{item.votes}} Likes</button>
 
           </p>
 
@@ -109,7 +109,7 @@
  <!--carousel-->
               <carousel>
                 <slide *ngFor="let slide of (item.images) ">
-                  <img src="http://localhost:3000/{{slide.originalname}}" alt="First slide">
+                  <img src="http://localhost:3000/{{slide.filename}}" alt="First slide">
                 </slide>
               </carousel>
 
@@ -176,6 +176,12 @@
 
   </div>
 </div>
+
+<!--scrollTop-->
+<div class="scrollTop" *ngIf="scrollTop" (click)="backToTop()">
+  <i class="fa fa-chevron-circle-up" style="font-size:48px;color:#555555"></i>
+</div>
+
 
 
 

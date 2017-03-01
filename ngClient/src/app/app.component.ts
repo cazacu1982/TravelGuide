@@ -1,6 +1,8 @@
-import { Component } from '@angular/core';
+import { Component, Inject } from '@angular/core';
 import  { AppService } from './app.service';
 //import { Observable } from 'rxjs/Observable';
+import { HostListener} from "@angular/core";
+import { DOCUMENT } from "@angular/platform-browser";
 import 'rxjs/Rx';
 
 @Component({
@@ -25,12 +27,24 @@ export class AppComponent {
   query: string;
 
   totalShare: number = 0;
-  showCount: number = 0;
-
-  constructor(public appService: AppService) {}
+  scrollTop: boolean;
+  constructor(public appService: AppService, @Inject(DOCUMENT) private document: Document) {}
 
   ngOnInit() {
     this.getProfiles();
+    this. scrollBackToTop();
+  }
+
+  @HostListener("window:scroll", [])
+
+  scrollBackToTop () {
+    let number = this.document.body.scrollTop;
+    number > 50 ? (this.scrollTop = true) : (this.scrollTop = false);
+  }
+
+  backToTop() {
+    
+    this.document.body.scrollTop = 0;
   }
 
   getLogin() {
@@ -59,7 +73,7 @@ export class AppComponent {
       let newFiltered = Obj.map(el => el);
 
       for (var i = 0; i < newFiltered.length; i++) {
-        console.log(i);
+
         for (var prop in newFiltered[i])
           // condition here
         if(typeof newFiltered[i][prop] === 'string') {
@@ -75,7 +89,7 @@ export class AppComponent {
         }
       });
 
-      console.log(this.pagedItems);
+      //console.log(this.pagedItems);
       return this.pagedItems = filtered;
     }
   };
@@ -99,9 +113,15 @@ export class AppComponent {
     this.totalShare += count;
   }
 
-  countReed(event) {
-   this.showCount += 1;
-  }
+ updateLikes(profiles_id) {
+
+   this.appService.updateLikes(profiles_id).subscribe(
+     data => {
+       // refresh the list
+       this.getProfiles();
+       return true;
+     });
+ }
 
 
   isHome() {

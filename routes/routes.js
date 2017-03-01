@@ -84,9 +84,25 @@ module.exports = function(app, passport) {
             res.json(docs);
         })
     });
-    
-    
-    
+
+    // find by id
+    app.get('/profiles/:id', function(req, res) {
+        Profile.findOne({_id: req.params.id}, function(err, obj) {
+            if(err) return console.error(err);
+            res.json(obj);
+
+        })
+    });
+
+    // update by id
+    app.put('/profiles/:id', function(req, res) {
+        Profile.findOneAndUpdate({_id: req.params.id}, { $inc: {votes: 1} }, function(err,data){
+            if (err)
+                res.send(err);
+            res.json(data);
+        });
+    });
+
     // route middleware to make sure a user is logged in
     function isLoggedIn(req, res, next) {
         // if user is authenticated in the session, carry on 

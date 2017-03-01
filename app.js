@@ -38,7 +38,6 @@ app.use(function(req, res, next) {
 var configDB = require('./config/database.js');
 
 var Profile = require('./models/profile.js');
-//var Images = require('./models/images.js');
 
 var multer = require('multer');
 //var upload = multer({ dest: 'uploads/' });
@@ -73,34 +72,11 @@ db.once('open', function() {
     storage: storage
   });
 
- /* // create profile images
-  app.post('/profile', upload.array('img', 8), function(req, res, next) {
-    res.send(req.files);
-
-    /!*req.files has the information regarding the file you are uploading...
-     from the total information, i am just using the path and the imageName to store in the mongo collection(table)
-     *!/
-    var path = req.files[0].path;
-    var imageName = req.files[0].originalname;
-
-    var imagepath = {};
-    imagepath['path'] = path;
-    imagepath['originalname'] = imageName;
-
-    //imagepath contains two objects, path and the imageName
-
-    //we are passing two objects in the addImage method.. which is defined above..
-    app.addImage(imagepath, function(err) {
-
-    });
-   });
-*/
     // create profile
   app.post('/profile', upload.array('img', 8), function(req, res, next) {
 
     var obj = new Profile();
     //console.log(req.files);
-   
     obj.images = req.files;
 
     obj.name = req.body.name;
@@ -109,27 +85,10 @@ db.once('open', function() {
     obj.date = req.body.date;
     obj.title = req.body.title;
     obj.comment = req.body.comment;
-    /*  obj.save(function(err, obj) {
+      /*  obj.save(function(err, obj) {
      if(err) return console.error(err);
      res.status(200).json(obj);
      });*/
-
-  /* // var path = req.files[0].path;
-    var imageName = req.files.originalname;
-
-   // var path = (typeof req.files[0].path !== 'undefined') ? req.files[0].path : '';
-    //var imageName = (typeof req.files[0].originalname !== 'undefined') ? req.files[0].originalname : '';
-
-    var imagepath = [];
-    imagepath['path'] = path;
-    imagepath['originalname'] = imageName;
-
-    //imagepath contains two objects, path and the imageName
-
-    //we are passing two objects in the addImage method.. which is defined above..
-    app.addImage(imagepath, function(err) {
-
-    });*/
 
     obj.save((err, obj) => {
       if(err) {

@@ -8,7 +8,7 @@ var _ = require('underscore')._;
 @Injectable()
 export class AppService {
 
-  private headers = new Headers({ 'content-type': 'application/json', 'charset': 'UTF-8' });
+  private headers = new Headers({ 'content-type': 'application/json' });
   private options = new RequestOptions({ headers: this.headers });
 
 
@@ -22,6 +22,10 @@ export class AppService {
   getProfiles(): Observable<any> {
     return this.http.get('http://localhost:3000/profiles').map(res => res.json());
   }
+  updateLikes(id): Observable<any> {
+   return this.http.put(`http://localhost:3000/profiles/${id._id}`, JSON.stringify(id)).map(res => res.json());
+  }
+
   sendMail() {
     return location.href = 'mailto:cazacu1982@yahoo.com';
   }
@@ -49,7 +53,7 @@ export class AppService {
     let endIndex = Math.min(startIndex + pageSize - 1, totalItems - 1);
 
     let pages = _.range(startPage, endPage + 1);
-    
+
     return {
       totalItems: totalItems,
       currentPage: currentPage,

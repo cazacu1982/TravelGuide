@@ -1,4 +1,4 @@
-var mongoose =require('mongoose');
+var mongoose = require('mongoose');
 
 var profileSchema = mongoose.Schema({
     name: String,
@@ -7,6 +7,7 @@ var profileSchema = mongoose.Schema({
     date: String,
     title: String,
     comment: String,
+    votes: {type: Number, default: 0},
     images: []
 });
 
