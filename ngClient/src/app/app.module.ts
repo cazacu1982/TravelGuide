@@ -1,10 +1,12 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { AccordionModule } from 'ng2-bootstrap/accordion';
 import { CarouselModule } from 'ng2-bootstrap/carousel';
 import {ShareButtonsModule} from 'ng2-sharebuttons';
+import { ModalModule } from 'ng2-bootstrap/modal';
+import { AgmCoreModule } from "angular2-google-maps/core";
 
 //import { AppRoutingModule } from './app-routing.module';
 
@@ -22,10 +24,16 @@ import { AppPipe } from './app.pipe';
     BrowserModule,
     //AppRoutingModule,
     FormsModule,
+    ReactiveFormsModule,
     HttpModule,
     AccordionModule.forRoot(),
     CarouselModule.forRoot(),
-    ShareButtonsModule.forRoot()
+    ShareButtonsModule.forRoot(),
+    ModalModule.forRoot(),
+    AgmCoreModule.forRoot({
+      apiKey: "AIzaSyCmUeMaQ8qHH4j6s8SE7Y2mUoUAm0WFxrM",
+      libraries: ["places"]
+    })
   ],
   providers: [AppService],
   bootstrap: [AppComponent]

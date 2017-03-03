@@ -17,8 +17,8 @@
         <li><a href="#" (click)="isContact()">Contact</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#" (click)="getLogin()" class="btn btn-info"><span class="fa fa-user"></span> Login</a></li>
-        <li><a href="#" (click)="getSignup()" class="btn btn-info"><span class="fa fa-user"></span> Sign up</a></li>
+        <li><a href="#" (click)="getLogin()" class="btn btn-info"><span class="fa fa-user"></span> Log In</a></li>
+        <li><a href="#" (click)="getSignup()" class="btn btn-info"><span class="fa fa-user"></span> Sign Up</a></li>
         <li><a href="http://localhost:3000/auth/facebook" class="btn btn-primary"><span class="fa fa-facebook"></span> Facebook</a></li>
         <li><a href="http://localhost:3000/auth/twitter" class="btn btn-primary"><span class="fa fa-twitter"></span> Twitter</a></li>
       </ul>
@@ -68,9 +68,38 @@
 <div class="container-fluid text-center bottom"  *ngIf="isHomeVisible" >
   <div class="row content" >
     <div class="col-sm-2 sidenav">
-      <!--<p><a href="#">Link</a></p>
-      <p><a href="#">Link</a></p>
-      <p><a href="#">Link</a></p>-->
+      <div class="newmodal">
+        <!--Large modal map-->
+        <h1>Search Map</h1>
+        <div class="form-group">
+          <input placeholder="search for location" autocorrect="off" autocapitalize="off" spellcheck="off" type="text" class="form-control" #search [formControl]="searchControl">
+        </div>
+        <sebm-google-map [latitude]="latitude" [longitude]="longitude" [scrollwheel]="false" [zoom]="zoom">
+          <sebm-google-map-marker [latitude]="latitude" [longitude]="longitude"></sebm-google-map-marker>
+        </sebm-google-map>
+      </div>
+
+      <button id="mapButton" class="btn btn-primary" (click)="lgModal.show(); onResize()">Larger Map</button>
+
+      <div bsModal #lgModal="bs-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title pull-left">Search Map</h4>
+              <button type="button" class="close pull-right" (click)="lgModal.hide()" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <h1>Search Map</h1>
+
+                <sebm-google-map [latitude]="latitude" [longitude]="longitude" [scrollwheel]="false" [zoom]="zoom">
+                  <sebm-google-map-marker [latitude]="latitude" [longitude]="longitude"></sebm-google-map-marker>
+                </sebm-google-map>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 <!--home center-->
       <div class="col-sm-8 text-left">

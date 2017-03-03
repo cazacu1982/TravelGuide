@@ -1,24 +1,36 @@
-import { Component, Inject } from '@angular/core';
+import { Component, Inject, NgZone, OnInit, ViewChild, ViewChildren, ElementRef, transition, animate, trigger, state } from '@angular/core';
 import  { AppService } from './app.service';
 //import { Observable } from 'rxjs/Observable';
 import { HostListener} from "@angular/core";
 import { DOCUMENT } from "@angular/platform-browser";
 import 'rxjs/Rx';
+import { MapsAPILoader } from 'angular2-google-maps/core';
+import { FormControl } from "@angular/forms";
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'],
+  host: {
+    '(window:resize)': 'onResize($event)'
+  }
+
 })
-export class AppComponent {
+export class AppComponent implements  OnInit {
   isHomeVisible = true;
   isAboutVisible = false;
   isContactVisible = false;
+
+  public latitude: number;
+  public  longitude: number;
+  public  searchControl: FormControl;
+  public  zoom: number;
 
   public status: any = {
     isFirstOpen: true,
     isOpen: false
   };
+
   private profiles: any[];
   // pager object
   pager: any = {};
@@ -28,11 +40,66 @@ export class AppComponent {
 
   totalShare: number = 0;
   scrollTop: boolean;
-  constructor(public appService: AppService, @Inject(DOCUMENT) private document: Document) {}
+
+  @ViewChild("search")
+  public searchElementRef: ElementRef;
+
+  constructor(public appService: AppService, @Inject(DOCUMENT) private document: Document,private mapsAPILoader: MapsAPILoader,
+              private ngZone: NgZone) {}
 
   ngOnInit() {
     this.getProfiles();
-    this. scrollBackToTop();
+    this.scrollBackToTop();
+    //set google maps defaults
+    this.zoom = 4;
+    this.latitude = 39.8282;
+    this.longitude = -98.5795;
+
+    //create search FormControl
+    this.searchControl = new FormControl();
+
+    //set current position
+    this.setCurrentPosition();
+
+    //load Places Autocomplete
+    this.mapsAPILoader.load().then(() => {
+      let autocomplete = new google.maps.places.Autocomplete(this.searchElementRef.nativeElement, {
+        types: ["geocode"]
+      });
+      autocomplete.addListener("place_changed", () => {
+        this.ngZone.run(() => {
+          //get the place result
+          let place:google.maps.places.PlaceResult = autocomplete.getPlace();
+
+          //verify result
+          if (place.geometry === undefined || place.geometry === null) {
+            return;
+          }
+
+          //set latitude, longitude and zoom
+          this.latitude = place.geometry.location.lat();
+          this.longitude = place.geometry.location.lng();
+          this.zoom = 12;
+        });
+      });
+    });
+  }
+
+  onResize() {
+    setTimeout(function(){
+      window.dispatchEvent(new Event("resize"));
+    }, 1);
+    this.zoom = 14;
+  }
+
+  private setCurrentPosition() {
+    if ("geolocation" in navigator) {
+      navigator.geolocation.getCurrentPosition((position) => {
+        this.latitude = position.coords.latitude;
+        this.longitude = position.coords.longitude;
+        this.zoom = 12;
+      });
+    }
   }
 
   @HostListener("window:scroll", [])
@@ -43,10 +110,8 @@ export class AppComponent {
   }
 
   backToTop() {
-    
     this.document.body.scrollTop = 0;
   }
-
   getLogin() {
     this.appService.getLogin();
   }
@@ -63,7 +128,6 @@ export class AppComponent {
          //error => console.log(error)
       });
   }
-
   search() {
     if (this.query.length <= 0) {
       return;
@@ -108,11 +172,9 @@ export class AppComponent {
     this.pagedItems = this.profiles.slice(this.pager.startIndex, this.pager.endIndex  + 1);
     //{console.log(this.pager.totalPages)}
   }
-
   sumCounts(count){
     this.totalShare += count;
   }
-
  updateLikes(profiles_id) {
 
    this.appService.updateLikes(profiles_id).subscribe(
@@ -122,8 +184,6 @@ export class AppComponent {
        return true;
      });
  }
-
-
   isHome() {
     this.isHomeVisible = true;
     this.isContactVisible =false;

@@ -73,8 +73,21 @@ b {
   bottom: 8%;
   right: 2%;
   cursor: pointer;
+  transition: 500ms;
+}
+.scrollTop:hover {
+  transform: scale(1.2);
+}
+.sebm-google-map-container {
+  height: 15vw;
 }
 
+#mapButton {
+  margin-top: 5%;
+}
+.modal-body > .sebm-google-map-container {
+  height: 40vw;
+}
 
 @media screen and (max-width: 320px) {
   slide {
@@ -82,9 +95,15 @@ b {
     height: 35vw;
   }
   .item  img {
-
     max-height:35vw;
-
   }
+  .modal-body > .sebm-google-map-container {
+    height: 90vw;
+  }
+
+  .sebm-google-map-container {
+    height: 30vw;
+  }
+
 }
 
