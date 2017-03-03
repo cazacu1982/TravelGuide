@@ -1,283 +1,270 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d0f83b5d-1325-483c-a943-814c25b7846d" name="Default" comment="ok">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/Screenshot (14).png1488457887264" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/Screenshot (15).png1488457887274" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/Screenshot (16) - Copy.png1488457887286" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/@types/google-maps/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/@types/google-maps/index.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/@types/google-maps/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/@types/google-maps/types-metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/@types/googlemaps/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/@types/googlemaps/index.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/@types/googlemaps/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/@types/googlemaps/types-metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/core-module.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/core-module.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/core-module.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/core-module.metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/core.umd.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/core.umd.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/directives.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/directives.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/directives.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/directives.metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/directives/google-map-circle.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/directives/google-map-circle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/directives/google-map-circle.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/directives/google-map-circle.metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/directives/google-map-info-window.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/directives/google-map-info-window.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/directives/google-map-info-window.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/directives/google-map-info-window.metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/directives/google-map-kml-layer.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/directives/google-map-kml-layer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/directives/google-map-kml-layer.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/directives/google-map-kml-layer.metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/directives/google-map-marker.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/directives/google-map-marker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/directives/google-map-marker.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/directives/google-map-marker.metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/directives/google-map-polygon.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/directives/google-map-polygon.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/directives/google-map-polygon.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/directives/google-map-polygon.metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/directives/google-map-polyline-point.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/directives/google-map-polyline-point.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/directives/google-map-polyline-point.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/directives/google-map-polyline-point.metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/directives/google-map-polyline.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/directives/google-map-polyline.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/directives/google-map-polyline.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/directives/google-map-polyline.metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/directives/google-map.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/directives/google-map.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/directives/google-map.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/directives/google-map.metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/index.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/index.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/index.metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/map-types.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/map-types.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/map-types.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/map-types.metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/services.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/services.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/services.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/services.metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/services/google-maps-api-wrapper.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/services/google-maps-api-wrapper.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/services/google-maps-api-wrapper.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/services/google-maps-api-wrapper.metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/services/google-maps-types.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/services/google-maps-types.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/services/google-maps-types.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/services/google-maps-types.metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/services/managers/circle-manager.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/services/managers/circle-manager.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/services/managers/circle-manager.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/services/managers/circle-manager.metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/services/managers/info-window-manager.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/services/managers/info-window-manager.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/services/managers/info-window-manager.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/services/managers/info-window-manager.metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/services/managers/kml-layer-manager.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/services/managers/kml-layer-manager.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/services/managers/kml-layer-manager.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/services/managers/kml-layer-manager.metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/services/managers/marker-manager.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/services/managers/marker-manager.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/services/managers/marker-manager.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/services/managers/marker-manager.metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/services/managers/marker-manager.spec.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/services/managers/marker-manager.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/services/managers/marker-manager.spec.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/services/managers/polygon-manager.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/services/managers/polygon-manager.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/services/managers/polygon-manager.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/services/managers/polygon-manager.metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/services/managers/polygon-manager.spec.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/services/managers/polygon-manager.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/services/managers/polygon-manager.spec.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/services/managers/polyline-manager.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/services/managers/polyline-manager.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/services/managers/polyline-manager.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/services/managers/polyline-manager.metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/services/managers/polyline-manager.spec.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/services/managers/polyline-manager.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/services/managers/polyline-manager.spec.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/services/maps-api-loader/lazy-maps-api-loader.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/services/maps-api-loader/lazy-maps-api-loader.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/services/maps-api-loader/lazy-maps-api-loader.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/services/maps-api-loader/lazy-maps-api-loader.metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/services/maps-api-loader/lazy-maps-api-loader.spec.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/services/maps-api-loader/lazy-maps-api-loader.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/services/maps-api-loader/lazy-maps-api-loader.spec.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/services/maps-api-loader/maps-api-loader.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/services/maps-api-loader/maps-api-loader.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/services/maps-api-loader/maps-api-loader.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/services/maps-api-loader/maps-api-loader.metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/services/maps-api-loader/noop-maps-api-loader.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/services/maps-api-loader/noop-maps-api-loader.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/services/maps-api-loader/noop-maps-api-loader.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/services/maps-api-loader/noop-maps-api-loader.metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/utils/browser-globals.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/utils/browser-globals.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/utils/browser-globals.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/core/utils/browser-globals.metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/core-module.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/core-module.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/core-module.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/core-module.metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/directives.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/directives.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/directives.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/directives.metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/directives/google-map-circle.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/directives/google-map-circle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/directives/google-map-circle.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/directives/google-map-circle.metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/directives/google-map-info-window.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/directives/google-map-info-window.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/directives/google-map-info-window.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/directives/google-map-info-window.metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/directives/google-map-kml-layer.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/directives/google-map-kml-layer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/directives/google-map-kml-layer.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/directives/google-map-kml-layer.metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/directives/google-map-marker.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/directives/google-map-marker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/directives/google-map-marker.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/directives/google-map-marker.metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/directives/google-map-polygon.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/directives/google-map-polygon.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/directives/google-map-polygon.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/directives/google-map-polygon.metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/directives/google-map-polyline-point.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/directives/google-map-polyline-point.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/directives/google-map-polyline-point.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/directives/google-map-polyline-point.metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/directives/google-map-polyline.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/directives/google-map-polyline.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/directives/google-map-polyline.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/directives/google-map-polyline.metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/directives/google-map.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/directives/google-map.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/directives/google-map.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/directives/google-map.metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/index.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/index.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/index.metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/map-types.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/map-types.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/map-types.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/map-types.metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/services.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/services.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/services.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/services.metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/services/google-maps-api-wrapper.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/services/google-maps-api-wrapper.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/services/google-maps-api-wrapper.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/services/google-maps-api-wrapper.metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/services/google-maps-types.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/services/google-maps-types.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/services/google-maps-types.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/services/google-maps-types.metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/services/managers/circle-manager.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/services/managers/circle-manager.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/services/managers/circle-manager.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/services/managers/circle-manager.metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/services/managers/info-window-manager.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/services/managers/info-window-manager.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/services/managers/info-window-manager.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/services/managers/info-window-manager.metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/services/managers/kml-layer-manager.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/services/managers/kml-layer-manager.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/services/managers/kml-layer-manager.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/services/managers/kml-layer-manager.metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/services/managers/marker-manager.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/services/managers/marker-manager.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/services/managers/marker-manager.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/services/managers/marker-manager.metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/services/managers/marker-manager.spec.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/services/managers/marker-manager.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/services/managers/marker-manager.spec.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/services/managers/polygon-manager.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/services/managers/polygon-manager.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/services/managers/polygon-manager.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/services/managers/polygon-manager.metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/services/managers/polygon-manager.spec.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/services/managers/polygon-manager.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/services/managers/polygon-manager.spec.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/services/managers/polyline-manager.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/services/managers/polyline-manager.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/services/managers/polyline-manager.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/services/managers/polyline-manager.metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/services/managers/polyline-manager.spec.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/services/managers/polyline-manager.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/services/managers/polyline-manager.spec.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/services/maps-api-loader/lazy-maps-api-loader.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/services/maps-api-loader/lazy-maps-api-loader.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/services/maps-api-loader/lazy-maps-api-loader.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/services/maps-api-loader/lazy-maps-api-loader.metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/services/maps-api-loader/lazy-maps-api-loader.spec.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/services/maps-api-loader/lazy-maps-api-loader.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/services/maps-api-loader/lazy-maps-api-loader.spec.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/services/maps-api-loader/maps-api-loader.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/services/maps-api-loader/maps-api-loader.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/services/maps-api-loader/maps-api-loader.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/services/maps-api-loader/maps-api-loader.metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/services/maps-api-loader/noop-maps-api-loader.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/services/maps-api-loader/noop-maps-api-loader.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/services/maps-api-loader/noop-maps-api-loader.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/services/maps-api-loader/noop-maps-api-loader.metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/utils/browser-globals.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/utils/browser-globals.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/utils/browser-globals.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/esm/core/utils/browser-globals.metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/ts/core/core-module.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/ts/core/directives.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/ts/core/directives/google-map-circle.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/ts/core/directives/google-map-info-window.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/ts/core/directives/google-map-kml-layer.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/ts/core/directives/google-map-marker.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/ts/core/directives/google-map-polygon.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/ts/core/directives/google-map-polyline-point.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/ts/core/directives/google-map-polyline.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/ts/core/directives/google-map.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/ts/core/index.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/ts/core/map-types.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/ts/core/services.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/ts/core/services/google-maps-api-wrapper.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/ts/core/services/google-maps-types.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/ts/core/services/managers/circle-manager.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/ts/core/services/managers/info-window-manager.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/ts/core/services/managers/kml-layer-manager.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/ts/core/services/managers/marker-manager.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/ts/core/services/managers/marker-manager.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/ts/core/services/managers/polygon-manager.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/ts/core/services/managers/polygon-manager.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/ts/core/services/managers/polyline-manager.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/ts/core/services/managers/polyline-manager.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/ts/core/services/maps-api-loader/lazy-maps-api-loader.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/ts/core/services/maps-api-loader/lazy-maps-api-loader.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/ts/core/services/maps-api-loader/maps-api-loader.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/ts/core/services/maps-api-loader/noop-maps-api-loader.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ngClient/node_modules/angular2-google-maps/ts/core/utils/browser-globals.ts" />
+    <list default="true" id="d0f83b5d-1325-483c-a943-814c25b7846d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_attach.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_code.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_copy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_excel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_find.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_gear.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_green.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_key.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_lightning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_paintbrush.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_paste.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_refresh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_save.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_acrobat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_actionscript.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_c.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_camera.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_cd.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_code.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_code_red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_coldfusion.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_compressed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_copy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_cplusplus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_csharp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_cup.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_database.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_dvd.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_excel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_find.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_flash.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_freehand.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_gear.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_get.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_h.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_horizontal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_key.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_lightning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_magnify.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_medal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_office.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_paint.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_paintbrush.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_paste.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_php.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_picture.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_powerpoint.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_put.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_ruby.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_stack.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_star.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_swoosh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_text.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_text_width.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_tux.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_vector.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_visualstudio.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_width.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_word.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_world.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_wrench.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_white_zip.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_word.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/icons/page_world.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/EUROPEMEDITERRANEANGREECETHASSOSTHASSOSTOWN.jpg1488533992215" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/Giola-Thassos-Greece.jpg1488533992222" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/Thassos-Greece-1068x709.jpg1488533992249" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/maxresdefault.jpg1488533992222" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/thasos.jpg1488533992228" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/thassos_1.jpg1488533992230" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/thassos_2.jpg1488533992240" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/transport-local-thassos-grecia.jpg1488533992252" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/cache.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/connect.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/http.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/https.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/middleware/basicAuth.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/middleware/bodyParser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/middleware/compiler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/middleware/compress.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/middleware/cookieParser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/middleware/csrf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/middleware/directory.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/middleware/errorHandler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/middleware/favicon.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/middleware/limit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/middleware/logger.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/middleware/methodOverride.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/middleware/profiler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/middleware/query.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/middleware/responseTime.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/middleware/router.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/middleware/session.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/middleware/session/cookie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/middleware/session/memory.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/middleware/session/session.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/middleware/session/store.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/middleware/static.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/middleware/staticCache.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/middleware/vhost.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/patch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/directory.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/error.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/public/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/lib/utils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/node_modules/formidable/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/node_modules/formidable/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/node_modules/formidable/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/node_modules/formidable/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/node_modules/formidable/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/node_modules/formidable/lib/file.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/node_modules/formidable/lib/incoming_form.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/node_modules/formidable/lib/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/node_modules/formidable/lib/json_parser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/node_modules/formidable/lib/multipart_parser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/node_modules/formidable/lib/octet_parser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/node_modules/formidable/lib/querystring_parser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/node_modules/formidable/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/.bin/express" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/.bin/express.cmd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/express/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/express/History.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/express/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/express/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/express/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/express/bin/express" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/express/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/express/lib/express.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/express/lib/http.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/express/lib/https.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/express/lib/request.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/express/lib/response.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/express/lib/router/collection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/express/lib/router/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/express/lib/router/methods.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/express/lib/router/route.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/express/lib/utils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/express/lib/view.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/express/lib/view/partial.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/express/lib/view/view.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/express/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/express/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/mime/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/mime/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/mime/mime.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/mime/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/mime/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/mime/types/mime.types" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/mime/types/node.types" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/mkdirp/.gitignore.orig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/mkdirp/.gitignore.rej" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/mkdirp/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/mkdirp/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/mkdirp/README.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/mkdirp/examples/pow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/mkdirp/examples/pow.js.orig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/mkdirp/examples/pow.js.rej" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/mkdirp/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/mkdirp/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/mkdirp/test/chmod.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/mkdirp/test/clobber.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/mkdirp/test/mkdirp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/mkdirp/test/perm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/mkdirp/test/perm_sync.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/mkdirp/test/race.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/mkdirp/test/rel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/mkdirp/test/sync.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/mkdirp/test/umask.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/mkdirp/test/umask_sync.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/qs/.gitmodules" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/qs/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/qs/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/qs/History.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/qs/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/qs/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/qs/benchmark.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/qs/examples.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/qs/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/qs/lib/querystring.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/qs/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/qs/test/mocha.opts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/qs/test/parse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/node_modules/qs/test/stringify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-sessions/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/redis/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/redis/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/redis/connection_breaker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/redis/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/redis/lib/commands.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/redis/lib/parser/hiredis.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/redis/lib/parser/javascript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/redis/lib/queue.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/redis/lib/to_array.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/redis/lib/util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/redis/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/dashboard.ejs" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngClient/src/assets/images/list-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/Screenshot (10).png1488362196890" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/Screenshot (11).png1488362196894" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/Screenshot (13).png1488284330565" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/Screenshot (14).png1488284330577" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/Screenshot (14).png1488457887264" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/Screenshot (15).png1488284330586" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/Screenshot (15).png1488360555154" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/Screenshot (15).png1488457887274" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/Screenshot (16) - Copy.png1488374346779" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/Screenshot (16) - Copy.png1488457887286" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/Screenshot (16).png1488284330602" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/Screenshot (16).png1488360555169" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/Screenshot (17).png1488284330615" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/Screenshot (17).png1488360555183" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/Screenshot (18).png1488284330629" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/Screenshot (18).png1488360555200" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/Screenshot (19).png1488360555224" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/Screenshot (2).png1488374346759" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/Screenshot (26).png1488282880007" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/Screenshot (27).png1488282880021" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/Screenshot (28).png1488282880030" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/Screenshot (29).png1488282880057" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/Screenshot (30).png1488282880079" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/Screenshot (31).png1488282880093" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/Screenshot (32).png1488282880111" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/Screenshot (33).png1488282880123" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/Screenshot (9) - Copy.png1488374346775" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/Screenshot (9).png1488362196882" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/uploads/Screenshot (19).png1488284330639" afterPath="$PROJECT_DIR$/uploads/Screenshot (19).png1488533901807" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ngClient/src/favicon.ico" afterPath="$PROJECT_DIR$/ngClient/src/favicon.ico" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ngClient/package.json" afterPath="$PROJECT_DIR$/ngClient/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/user.js" afterPath="$PROJECT_DIR$/models/user.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ngClient/src/app/app.component.css" afterPath="$PROJECT_DIR$/ngClient/src/app/app.component.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ngClient/src/app/app.component.html" afterPath="$PROJECT_DIR$/ngClient/src/app/app.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ngClient/src/app/app.component.ts" afterPath="$PROJECT_DIR$/ngClient/src/app/app.component.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ngClient/src/app/app.module.ts" afterPath="$PROJECT_DIR$/ngClient/src/app/app.module.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ngClient/src/index.html" afterPath="$PROJECT_DIR$/ngClient/src/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ngClient/src/styles.css" afterPath="$PROJECT_DIR$/ngClient/src/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/style.css" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/routes.js" afterPath="$PROJECT_DIR$/routes/routes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/admin.ejs" afterPath="$PROJECT_DIR$/views/admin.ejs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/profile.ejs" afterPath="$PROJECT_DIR$/views/profile.ejs" />
     </list>
     <ignored path="travelguide.iws" />
@@ -300,7 +287,28 @@
     <favorites_list name="travelguide" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="routes.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/routes/routes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1983">
+              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dashboard.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/dashboard.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="46" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="MERGE" />
@@ -322,28 +330,32 @@
         <option value="$PROJECT_DIR$/config/passport.js" />
         <option value="$PROJECT_DIR$/config/dbprofile.js" />
         <option value="$PROJECT_DIR$/routes/index.js" />
-        <option value="$PROJECT_DIR$/views/admin.ejs" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/ngClient/angular-cli.json" />
-        <option value="$PROJECT_DIR$/models/user.js" />
         <option value="$PROJECT_DIR$/models/images.js" />
         <option value="$PROJECT_DIR$/ngClient/src/app/app.pipe.ts" />
         <option value="$PROJECT_DIR$/ngClient/src/assets/images/travelguide_files/styles.bundle.css" />
-        <option value="$PROJECT_DIR$/ngClient/src/index.html" />
         <option value="$PROJECT_DIR$/views/index.ejs" />
         <option value="$PROJECT_DIR$/views/login.ejs" />
         <option value="$PROJECT_DIR$/views/signup.ejs" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/models/profile.js" />
-        <option value="$PROJECT_DIR$/ngClient/src/app/app.service.ts" />
-        <option value="$PROJECT_DIR$/routes/routes.js" />
         <option value="$PROJECT_DIR$/config/auth.js" />
-        <option value="$PROJECT_DIR$/ngClient/src/styles.css" />
-        <option value="$PROJECT_DIR$/views/profile.ejs" />
-        <option value="$PROJECT_DIR$/ngClient/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/ngClient/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/ngClient/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/ngClient/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/ngClient/src/app/app.service.ts" />
+        <option value="$PROJECT_DIR$/ngClient/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/ngClient/src/app/app.component.css" />
+        <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
+        <option value="$PROJECT_DIR$/views/profile.ejs" />
+        <option value="$PROJECT_DIR$/models/user.js" />
+        <option value="$PROJECT_DIR$/views/adminLogin.ejs" />
+        <option value="$PROJECT_DIR$/views/adminlogin.ejs" />
+        <option value="$PROJECT_DIR$/views/admin.ejs" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/views/dashboard.ejs" />
+        <option value="$PROJECT_DIR$/ngClient/src/index.html" />
+        <option value="$PROJECT_DIR$/ngClient/src/styles.css" />
+        <option value="$PROJECT_DIR$/routes/routes.js" />
       </list>
     </option>
   </component>
@@ -409,20 +421,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="travelguide" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="travelguide" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ngClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -435,7 +433,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../nodewebapp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ubisoft" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="JavaScriptPreferStrict" value="false" />
@@ -446,7 +444,12 @@
     <property name="ignore_missing_gitignore" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\develop\hostingTestAngular\travelguide\public" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\develop\hostingTestAngular\travelguide\public" />
+      <recent name="C:\develop\hostingTestAngular\travelguide\ngClient\src" />
       <recent name="C:\develop\hostingTestAngular\travelguide\ngClient\src\assets\images" />
       <recent name="C:\develop\hostingTestAngular\travelguide\public\images" />
     </key>
@@ -850,7 +853,7 @@
       <workItem from="1487678521667" duration="54000" />
       <workItem from="1487834133475" duration="16643000" />
       <workItem from="1487919974481" duration="31027000" />
-      <workItem from="1488182948300" duration="104030000" />
+      <workItem from="1488182948300" duration="135307000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <created>1486629920503</created>
@@ -1027,11 +1030,18 @@
       <option name="project" value="LOCAL" />
       <updated>1488380182466</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="ok">
+      <created>1488524619118</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1488524619118</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="349109000" />
+    <option name="totallyTimeSpent" value="380386000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1374" y="297" width="1382" height="744" extended-state="6" />
@@ -1049,6 +1059,7 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2753404" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1059,7 +1070,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1074,7 +1084,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2662116" sideWeight="0.49394855" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2735043" sideWeight="0.49394855" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2753404" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1099,6 +1109,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="ok" />
     <option name="LAST_COMMIT_MESSAGE" value="ok" />
   </component>
@@ -1107,7 +1118,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/ngClient/src/app/app.module.ts</url>
-          <line>12</line>
+          <line>13</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
@@ -1121,43 +1132,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ngClient/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#i#0;n#div#5;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ngClient/src/app/app.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ngClient/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#i#0;n#div#5;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/dbprofile.js" />
-    <entry file="file://$PROJECT_DIR$/ngClient/src/assets/images/url.htm" />
-    <entry file="file://$PROJECT_DIR$/ngClient/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ngClient/.gitignore" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1186,13 +1160,6 @@
     <entry file="file://$PROJECT_DIR$/uploads/upload_3bf0686d85bd7da487ae7436d3580ea5.png" />
     <entry file="file://$PROJECT_DIR$/uploads/upload_f4579128415bdb71a27c56076fcfc73d.png" />
     <entry file="file://$PROJECT_DIR$/uploads/upload_7aabe1d6b1fa912f4d2cea09dd1b4284.jpg" />
-    <entry file="file://$PROJECT_DIR$/config/database.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="50" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/users.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1275,31 +1242,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/signup.ejs">
+    <entry file="file://$PROJECT_DIR$/ngClient/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+        <state relative-caret-position="595">
+          <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#58#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ngClient/src/app/app.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/login.ejs">
+    <entry file="file://$PROJECT_DIR$/ngClient/src/app/app.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="42" column="7" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
+        <state relative-caret-position="-2099">
+          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ngClient/src/app/app.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="95" column="23" selection-start-line="95" selection-start-column="23" selection-end-line="95" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
+        <state relative-caret-position="493">
           <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/admin.ejs">
+    <entry file="file://$PROJECT_DIR$/public/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1307,12 +1292,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/user.js">
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-357">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        <state relative-caret-position="187">
+          <caret line="11" column="1" selection-start-line="8" selection-start-column="0" selection-end-line="11" selection-end-column="1" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/html5/web-forms2.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1256">
+          <caret line="367" column="22" selection-start-line="367" selection-start-column="22" selection-end-line="367" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ngClient/src/assets/images/list-bg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/profile.js">
@@ -1323,10 +1326,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
+    <entry file="file://$PROJECT_DIR$/models/user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="87" column="6" selection-start-line="87" selection-start-column="6" selection-end-line="87" selection-end-column="6" />
+        <state relative-caret-position="-11">
+          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -1339,90 +1342,103 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="50" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/passport.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1232">
-          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+        <state relative-caret-position="122">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ngClient/src/styles.css">
+    <entry file="file://$PROJECT_DIR$/views/signup.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ngClient/src/app/app.module.ts">
+    <entry file="file://$PROJECT_DIR$/views/login.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-            <element signature="e#552#599#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ngClient/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="91" column="18" selection-start-line="91" selection-start-column="18" selection-end-line="91" selection-end-column="18" />
-          <folding>
-            <element signature="n#style#0;n#i#0;n#div#5;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ngClient/src/app/app.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="102" column="0" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+        <state relative-caret-position="323">
+          <caret line="19" column="15" selection-start-line="17" selection-start-column="6" selection-end-line="19" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/profile.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="37" column="55" selection-start-line="37" selection-start-column="55" selection-end-line="37" selection-end-column="55" />
+        <state relative-caret-position="187">
+          <caret line="29" column="81" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="81" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ngClient/src/app/app.component.ts">
+    <entry file="file://$PROJECT_DIR$/ngClient/src/app/app.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="91" column="18" selection-start-line="91" selection-start-column="18" selection-end-line="91" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#140#0" expanded="true" />
-            <element signature="e#234#278#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="153">
+          <caret line="69" column="32" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ngClient/src/app/app.service.ts">
+    <entry file="file://$PROJECT_DIR$/ngClient/src/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state relative-caret-position="272">
+          <caret line="79" column="17" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="17" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/dashboard.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="46" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ngClient/src/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ngClient/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        <state relative-caret-position="493">
+          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/routes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="102" column="11" selection-start-line="102" selection-start-column="11" selection-end-line="102" selection-end-column="11" />
+        <state relative-caret-position="-1983">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
           <folding />
         </state>
       </provider>

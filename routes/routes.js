@@ -1,13 +1,57 @@
+
 module.exports = function(app, passport) {
 
     var User = require('../models/user.js');
     var Profile = require('../models/profile.js');
 
-    // HOME PAGE (with login links) ========
-    app.get('/admin', function(req, res) {
-       res.render('admin.ejs'); //load the index.ejs file 
+    function checkAuth (req, res, next) {
+        console.log('checkAuth ' + req.url);
+
+        // don't serve /secure to those not logged in
+        // you should add to this list, for each and every secure url
+        if (req.url === '/dashboard' && (!req.session || !req.session.authenticated)) {
+            res.sendStatus(403);
+        } else if (req.url === '/users' && (!req.session || !req.session.authenticated))  {
+            res.sendStatus(403);
+            return;
+        }
+        next();
+    }
+    app.use(checkAuth);
+ 
+/*Admin login logic express*/
+
+    app.get('/dashboard', checkAuth, function(req, res, next) {
+        res.render('dashboard'); //load the index.ejs file
+    });
+    //get users ==========================
+    app.get('/users', (req, res) => {
+        User.find({}, (err, docs) => {
+            if(err) return console.error(err);
+            res.json(docs);
+        })
+    });
+
+    app.get('/admin', function(req, res, next) {
+        res.render('admin.ejs'); //load the index.ejs file
+    });
+
+    app.post('/admin', function(req, res, next) {
+        if(req.body.email && req.body.email === "cazacu1982@yahoo.com" && req.body.password && req.body.password === 'zmxncbv') {
+            req.session.authenticated= true;
+            res.redirect('/dashboard');
+        } else {
+           // req.flash('error', 'Username and password are incorrect');
+            res.redirect('/admin');
+        }
+    });
+
+    app.get('/logoutAdmin', function (req, res, next) {
+        delete req.session.authenticated;
+        res.redirect('/admin');
     });
     
+    // express app HOME PAGE (with login links) ========
     //LOGIN====================
     //show the login form
     app.get('/login', function (req, res) {
@@ -69,19 +113,12 @@ module.exports = function(app, passport) {
         res.redirect('http://localhost:4200');
     });
 
-    //get users ==========================
-    app.get('/users', (req, res) => {
-        User.find({}, (err, docs) => {
-            if(err) return console.error(err);
-            res.json(docs);
-        })
-    });
-
     //get profile ==========================
     app.get('/profiles', (req, res) => {
         Profile.find({}, (err, docs) => {
             if(err) return console.error(err);
             res.json(docs);
+
         })
     });
 
@@ -100,7 +137,7 @@ module.exports = function(app, passport) {
             if (err)
                 res.send(err);
             res.json(data);
-        });
+                   });
     });
 
     // route middleware to make sure a user is logged in
@@ -109,6 +146,6 @@ module.exports = function(app, passport) {
         if(req.isAuthenticated())
             return next();
         // if they aren't redirect them to the home page
-        res.redirect('/');
+        res.redirect('/login');
     }
 };

@@ -12,11 +12,12 @@ var Grid = require('gridfs-stream');
 var session = require('express-session');
 var fs = require('fs');
 var formidable = require("formidable");
+var util = require('util');
 
 var app = express();
 
 // uncomment after placing your favicon in /public
-//app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
+app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 
 app.use(logger('dev'));
 app.use(bodyParser.json());
@@ -125,6 +126,7 @@ db.once('open', function() {
 // Point static path to ngCms/dist
   app.use(express.static(path.join(__dirname, 'uploads')));
   app.use(express.static(path.join(__dirname, 'ngClient/dist')));
+  app.use(express.static(path.join(__dirname, 'public')));
 
 
 //require for passport
@@ -136,6 +138,7 @@ db.once('open', function() {
  /* app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'ngClient/dist/index.html'));
   });*/
+
 // routes ======================================================================
   require('./routes/routes.js')(app, passport); // load our routes and pass in our app and fully configured passport
   //var index = require('./routes/index');

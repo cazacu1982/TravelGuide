@@ -88,14 +88,23 @@ b {
 .modal-body > .sebm-google-map-container {
   height: 40vw;
 }
+#datepicker {
+  margin-top: 5%;
+}
+pre {
+  white-space: pre-line;
+  word-break: keep-all;
+}
 
 @media screen and (max-width: 320px) {
   slide {
     margin: auto;
-    height: 35vw;
+    height: 50vw;
   }
   .item  img {
-    max-height:35vw;
+    max-height: 50vw;
+   /* width: 100%;
+    max-width:100%;*/
   }
   .modal-body > .sebm-google-map-container {
     height: 90vw;

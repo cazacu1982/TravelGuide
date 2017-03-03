@@ -7,7 +7,20 @@
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
     <style>
         body        { padding-top:1%; word-wrap:break-word; }
+
+       span {
+           display: inline-block;
+           padding: 0.5% 0;
+       }
+        #label:hover + span  {
+            color: red;
+            transform: scale(1.3);
+        }
+        .page-header {
+            margin: 0;
+        }
     </style>
+
 </head>
 <body>
 <div class="container">
@@ -35,8 +48,9 @@
                         <input type="text" class="form-control" name="title" required>
                         <label>Comment</label>
                         <textarea class="form-control" rows="10" name="comment" placeholder="Enter text here..." required></textarea>
-                        <label>File Upload- MAX 8 FILES*</br>Select a file:</label>
-                        <input type="file" name="img" multiple />
+                        <label>File Upload</br>Select a file:</label>
+                        <input id="label" type="file" name="img" multiple />
+                        <span>MAX 8 FILES*</span>
                         <br />
                         <button type="submit" value ="Upload" class="btn btn-info btn-lg">Submit</button>
                     </div>

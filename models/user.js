@@ -25,17 +25,11 @@ var userSchema = mongoose.Schema({
         token        : String,
         email        : String,
         name         : String
-    }/*,
-    profile          : {
-        name: String,
-        country: String,
-        region: String,
-        date: String,
-        title: String,
-        comment: String,
-        img: { data: Buffer, contentType: String }
-    }*/
-    
+    },
+    admin :{
+        email: String ,
+        password: String 
+    }
 });
 
 

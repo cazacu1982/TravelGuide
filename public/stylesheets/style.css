@@ -6,3 +6,7 @@ body {
 a {
   color: #00B7FF;
 }
+#warning:hover  {
+  color: red;
+  background-color: red;
+}

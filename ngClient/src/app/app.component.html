@@ -68,8 +68,8 @@
 <div class="container-fluid text-center bottom"  *ngIf="isHomeVisible" >
   <div class="row content" >
     <div class="col-sm-2 sidenav">
+<!--Large modal map-->
       <div class="newmodal">
-        <!--Large modal map-->
         <h1>Search Map</h1>
         <div class="form-group">
           <input placeholder="search for location" autocorrect="off" autocapitalize="off" spellcheck="off" type="text" class="form-control" #search [formControl]="searchControl">
@@ -77,9 +77,8 @@
         <sebm-google-map [latitude]="latitude" [longitude]="longitude" [scrollwheel]="false" [zoom]="zoom">
           <sebm-google-map-marker [latitude]="latitude" [longitude]="longitude"></sebm-google-map-marker>
         </sebm-google-map>
+        <button id="mapButton" class="btn btn-primary" (click)="lgModal.show(); onResize()">Larger Map</button>
       </div>
-
-      <button id="mapButton" class="btn btn-primary" (click)="lgModal.show(); onResize()">Larger Map</button>
 
       <div bsModal #lgModal="bs-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg">
@@ -92,10 +91,32 @@
             </div>
             <div class="modal-body">
               <h1>Search Map</h1>
-
                 <sebm-google-map [latitude]="latitude" [longitude]="longitude" [scrollwheel]="false" [zoom]="zoom">
                   <sebm-google-map-marker [latitude]="latitude" [longitude]="longitude"></sebm-google-map-marker>
                 </sebm-google-map>
+            </div>
+          </div>
+        </div>
+      </div>
+<!--small modal datepicker-->
+      <button id="datepicker" type="button" class="btn btn-primary" (click)="smModal.show()">Datepicker</button>
+
+      <div bsModal #smModal="bs-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-sm">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title pull-left">Datepicker</h4>
+              <button type="button" class="close pull-right" aria-label="Close" (click)="smModal.hide()">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div>
+                <div style="display:inline-block; min-height:290px;">
+                  <datepicker [(ngModel)]="dt" [minDate]="minDate" [showWeeks]="true" [dateDisabled]="dateDisabled"></datepicker>
+                </div>
+                <hr />
+              </div>
             </div>
           </div>
         </div>
@@ -123,7 +144,7 @@
                     (click)="group.isOpen = !group.isOpen">Reed More
             </button>
 
-            <button type="submit" class="btn btn-success btn-sm"  (click)="updateLikes(item)" > {{item.votes}} Likes</button>
+            <button type="submit" class="btn btn-success btn-sm"  (click)="updateLikes(item)" ><i class="fa fa-thumbs-up"> Like {{item.votes}}</i> </button>
 
           </p>
 
@@ -134,7 +155,7 @@
                 <i class="pull-right float-xs-right glyphicon"
                    [ngClass]="{'glyphicon-chevron-down': group?.isOpen, 'glyphicon-chevron-right': !group?.isOpen}"></i>
               </div>
-              <p class="limit">{{item.profile?.comment}}{{item.comment}}</p>
+              <pre><p class="limit">{{item.profile?.comment}}{{item.comment}}</p></pre>
  <!--carousel-->
               <carousel>
                 <slide *ngFor="let slide of (item.images) ">
