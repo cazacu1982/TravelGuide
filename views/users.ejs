@@ -1,0 +1,75 @@
+
+<!doctype html>
+<html>
+<head>
+    <title>TravelGuide</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> <!-- load bootstrap css -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"> <!-- load fontawesome -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="http://localhost:4200">TRAVELgUIDE</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="http://localhost:4200">Home</a></li>
+                <li><a href="http://localhost:3000/dashboard">Dashboard</a></li>
+                <li><a href="http://localhost:3000/users">Users</a></li>
+
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="http://localhost:3000/logoutAdmin" class="btn btn-default btn-sm">Logout</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!--List Profile-->
+<div class="col-sm-12">
+    <div class="page-header text-center">
+        <h1><span class="fa fa-anchor"></span> Users List </h1>
+    </div>
+
+
+
+
+    <div class="table-responsive">
+
+        <table class="table table-bordered table-striped">
+            <thead class="thead-default">
+            <tr>
+                <th>Nr</th>
+                <th>Name facebook</th>
+                <th>Name twitter</th>
+                <th>DisplayName twitter</th>
+                <th>Email</th>
+                <th>Email facebook</th>
+            </tr>
+            </thead>
+            <% users.forEach (( item, index) => { %>
+            <tbody>
+            <tr>
+                <td><%= index + 1 %></td>
+                <td><%= item.facebook.name %></td>
+                <td> <%= item.twitter.username %></td>
+                <td><%= item.twitter.displayName %></td>
+                <td><%= item.local.email %> </td>
+                <td> <%= item.facebook.email %></td>
+            </tr>
+            </tbody>
+            <% }); %>
+        </table>
+    </div>
+</div>
+</body>
+</html>

@@ -20,16 +20,60 @@ module.exports = function(app, passport) {
     app.use(checkAuth);
  
 /*Admin login logic express*/
+    /*===================Admin==================================================================*/
 
     app.get('/dashboard', checkAuth, function(req, res, next) {
-        res.render('dashboard'); //load the index.ejs file
+       Profile.find( function ( err, profiles, count ){
+           res.render('dashboard', {
+                profiles : profiles
+            });
+        });
+       // res.render('dashboard'); //load the index.ejs file
     });
     //get users ==========================
     app.get('/users', (req, res) => {
-        User.find({}, (err, docs) => {
-            if(err) return console.error(err);
-            res.json(docs);
+        User.find((err, users, count, docs) => {
+            //if(err) return console.error(err);
+           // res.json(docs);
+            res.render('users', {
+               users : users
+            });
         })
+    });
+    /*get by id*/
+    app.get('/dashboard/:id/edit', (req, res) => {
+        Profile.findOne({_id: req.params.id}, (err, profiles) => {
+            if (err) return console.error(err);
+            res.render('edit', {profiles: profiles});
+        })
+    });
+    
+    // Route to update a single
+    app.post("/dashboard/:id/edit", function(req, res) {
+
+        Profile.findOneAndUpdate({_id: req.params.id}, {$set: {
+           name: req.body.name,
+           country: req.body.country,
+           region: req.body.region,
+           date: req.body.date,
+           title: req.body.title,
+           comment: req.body.comment
+       }}, function(err){
+            if(err) {
+                console.log(err);
+            }
+            else {
+                console.log("New Animal Name:", req.body.name);
+                //res.redirect("/dashboard");
+            }
+        });
+    });
+    //delete by id===============
+    app.get('/dashboard/:id/destroy', function(req, res) {
+        Profile.remove({_id: req.params.id}, function (err) {
+            if (err) return console.error(err);
+           // res.redirect('/dashboard');
+        });
     });
 
     app.get('/admin', function(req, res, next) {
@@ -52,7 +96,7 @@ module.exports = function(app, passport) {
     });
     
     // express app HOME PAGE (with login links) ========
-    //LOGIN====================
+    //LOGIN==================== Users+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
     //show the login form
     app.get('/login', function (req, res) {
         // render the page and pass in any flash data if it exists
@@ -118,7 +162,6 @@ module.exports = function(app, passport) {
         Profile.find({}, (err, docs) => {
             if(err) return console.error(err);
             res.json(docs);
-
         })
     });
 
