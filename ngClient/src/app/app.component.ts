@@ -32,6 +32,7 @@ export class AppComponent implements  OnInit {
   };
 
   private profiles: any[];
+  private isLoading = true;
   // pager object
   pager: any = {};
   // pagedItems
@@ -40,6 +41,7 @@ export class AppComponent implements  OnInit {
 
   totalShare: number = 0;
   scrollTop: boolean;
+ // timeOut = setTimeout(this.backToTop(),10);
 
   @ViewChild("search")
   public searchElementRef: ElementRef;
@@ -48,6 +50,7 @@ export class AppComponent implements  OnInit {
               private ngZone: NgZone) {}
 
   ngOnInit() {
+
     this.getProfiles();
     this.scrollBackToTop();
     //set google maps defaults
@@ -110,7 +113,12 @@ export class AppComponent implements  OnInit {
   }
 
   backToTop() {
-    this.document.body.scrollTop = 0;
+    //this.document.body.scrollTop = 0;
+      window.scrollTo(0,0);
+    /* if (document.body.scrollTop!=0 || document.documentElement.scrollTop!=0){
+      window.scrollBy(0,-50);
+    }
+    else clearTimeout(this.timeOut);*/
   }
   getLogin() {
     this.appService.getLogin();
@@ -122,10 +130,12 @@ export class AppComponent implements  OnInit {
     this.appService.getProfiles().subscribe(
       data => {
         this.profiles = data
-          //.filter((el) => { return el.profile; })
+        //.filter((el) => { return el.profile; })
           .reverse();
-        this.setPage(1);
-         //error => console.log(error)
+          this.setPage(1);
+          //error => console.log(error)
+        if(this.profiles.length > 0)
+        this.isLoading = false;
       });
   }
   search() {
