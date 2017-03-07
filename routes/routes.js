@@ -47,24 +47,36 @@ module.exports = function(app, passport) {
             res.render('edit', {profiles: profiles});
         })
     });
-    
-    // Route to update a single
-    app.post("/dashboard/:id/edit", function(req, res) {
 
-        Profile.findOneAndUpdate({_id: req.params.id}, {$set: {
-           name: req.body.name,
+    // Route to update a single
+    app.post("/dashboard/:id", function(req, res, next) {
+       Profile.update({_id: req.params.id}, {$set: {name: req.body.name,
            country: req.body.country,
            region: req.body.region,
            date: req.body.date,
-           title: req.body.title,
-           comment: req.body.comment
-       }}, function(err){
+           title:req.body.title,
+           comment: req.body.comment} },{upsert: true, multi: true}, function(err, profiles) {
+            // If error exists display it
             if(err) {
                 console.log(err);
             }
+            // Else update a single animal name
             else {
-                console.log("New Animal Name:", req.body.name);
-                //res.redirect("/dashboard");
+                console.log( req.body.name);
+               // res.json(profiles);
+                res.format({
+                    //HTML response will set the location and redirect back to the home page. You could also create a 'success' page if that's your thing
+                    html: () => {
+                        // If it worked, set the header so the address bar doesn't still say /adduser
+                        res.location('/dashboard');
+                        // And forward to success page
+                        res.redirect('/dashboard');
+                    },
+                    //JSON response will show the newly created blob
+                    json: () => {
+                        res.json(profiles);
+                    }
+                });
             }
         });
     });
@@ -72,7 +84,7 @@ module.exports = function(app, passport) {
     app.get('/dashboard/:id/destroy', function(req, res) {
         Profile.remove({_id: req.params.id}, function (err) {
             if (err) return console.error(err);
-           // res.redirect('/dashboard');
+            res.redirect('/dashboard');
         });
     });
 
