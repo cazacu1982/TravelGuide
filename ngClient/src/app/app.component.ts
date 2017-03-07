@@ -1,11 +1,12 @@
 import { Component, Inject, NgZone, OnInit, ViewChild, ViewChildren, ElementRef, transition, animate, trigger, state } from '@angular/core';
 import  { AppService } from './app.service';
-//import { Observable } from 'rxjs/Observable';
 import { HostListener} from "@angular/core";
 import { DOCUMENT } from "@angular/platform-browser";
 import 'rxjs/Rx';
 import { MapsAPILoader } from 'angular2-google-maps/core';
 import { FormControl } from "@angular/forms";
+
+declare var $:any;
 
 @Component({
   selector: 'app-root',
@@ -14,7 +15,6 @@ import { FormControl } from "@angular/forms";
   host: {
     '(window:resize)': 'onResize($event)'
   }
-
 })
 export class AppComponent implements  OnInit {
   isHomeVisible = true;
@@ -87,6 +87,17 @@ export class AppComponent implements  OnInit {
       });
     });
   }
+  ngAfterViewInit() {
+    this.backToTop();
+  }
+   backToTop() {
+      $(".scrollTop").on('click', function (e) {
+        e.preventDefault();
+        $('html, body').animate({
+          scrollTop: 0
+        }, 500);
+      });
+    }
 
   onResize() {
     setTimeout(function(){
@@ -110,15 +121,6 @@ export class AppComponent implements  OnInit {
   scrollBackToTop () {
     let number = this.document.body.scrollTop;
     number > 50 ? (this.scrollTop = true) : (this.scrollTop = false);
-  }
-
-  backToTop() {
-    //this.document.body.scrollTop = 0;
-      window.scrollTo(0,0);
-    /* if (document.body.scrollTop!=0 || document.documentElement.scrollTop!=0){
-      window.scrollBy(0,-50);
-    }
-    else clearTimeout(this.timeOut);*/
   }
   getLogin() {
     this.appService.getLogin();

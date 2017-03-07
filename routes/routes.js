@@ -93,8 +93,9 @@ module.exports = function(app, passport) {
     });
 
     app.post('/admin', function(req, res, next) {
-        if(req.body.email && req.body.email === "cazacu1982@yahoo.com" && req.body.password && req.body.password === 'zmxncbv') {
+        if(req.body.email && req.body.email === "cazacu1982@yahoo.com" && req.body.password && req.body.password === 'zmxncbv1982') {
             req.session.authenticated= true;
+          
             res.redirect('/dashboard');
         } else {
            // req.flash('error', 'Username and password are incorrect');
