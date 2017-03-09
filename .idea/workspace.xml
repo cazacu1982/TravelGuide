@@ -29,8 +29,8 @@
       <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ngClient/src/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+            <state relative-caret-position="289">
+              <caret line="23" column="57" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -206,14 +206,15 @@
     <property name="ignore_missing_gitignore" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\develop\hostingTestAngular\travelguide\public" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\develop\hostingTestAngular\travelguide\uploads" />
       <recent name="C:\develop\hostingTestAngular\travelguide\public" />
       <recent name="C:\develop\hostingTestAngular\travelguide\ngClient\src" />
       <recent name="C:\develop\hostingTestAngular\travelguide\ngClient\src\assets\images" />
       <recent name="C:\develop\hostingTestAngular\travelguide\public\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\develop\hostingTestAngular\travelguide\public" />
     </key>
   </component>
   <component name="RunManager">
@@ -618,7 +619,7 @@
       <workItem from="1488182948300" duration="170438000" />
       <workItem from="1488881321654" duration="19462000" />
       <workItem from="1488902680465" duration="656000" />
-      <workItem from="1489046191138" duration="132000" />
+      <workItem from="1489046191138" duration="414000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <created>1486629920503</created>
@@ -851,11 +852,25 @@
       <option name="project" value="LOCAL" />
       <updated>1489046250979</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="ok">
+      <created>1489046329231</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1489046329231</updated>
+    </task>
+    <task id="LOCAL-00035" summary="ok">
+      <created>1489046550744</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1489046550744</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="435767000" />
+    <option name="totallyTimeSpent" value="436049000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1374" y="297" width="1382" height="744" extended-state="0" />
@@ -1208,8 +1223,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ngClient/src/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+        <state relative-caret-position="289">
+          <caret line="23" column="57" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
           <folding />
         </state>
       </provider>
