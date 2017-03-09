@@ -160,9 +160,9 @@
           <accordion>
             <accordion-group #group [isOpen]="status.isOpen">
               <div accordion-heading>
-                {{item.profile?.title}}{{item.title}}...
+                <h6>{{item.profile?.title}}{{item.title}}...
                 <i class="pull-right float-xs-right glyphicon"
-                   [ngClass]="{'glyphicon-chevron-down': group?.isOpen, 'glyphicon-chevron-right': !group?.isOpen}"></i>
+                   [ngClass]="{'glyphicon-chevron-down': group?.isOpen, 'glyphicon-chevron-right': !group?.isOpen}"></i></h6>
               </div>
               <pre><p class="limit">{{item.profile?.comment}}{{item.comment}}</p></pre>
  <!--carousel-->
