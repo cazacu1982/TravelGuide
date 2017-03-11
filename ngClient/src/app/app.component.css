@@ -67,7 +67,9 @@ h3 {
 b {
   font-size: .7rem;
 }
-
+.jumbotron {
+  margin-bottom: 25%;
+}
 .scrollTop {
   position: fixed;
   bottom: 8%;
