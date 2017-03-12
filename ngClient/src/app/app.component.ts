@@ -46,8 +46,8 @@ export class AppComponent implements  OnInit {
   @ViewChild("search")
   public searchElementRef: ElementRef;
 
-  constructor(public appService: AppService, @Inject(DOCUMENT) private document: Document,private mapsAPILoader: MapsAPILoader,
-              private ngZone: NgZone) {}
+  constructor(public appService: AppService,private mapsAPILoader: MapsAPILoader,
+              private ngZone: NgZone, @Inject(DOCUMENT) private document: any) {}
 
   ngOnInit() {
 
